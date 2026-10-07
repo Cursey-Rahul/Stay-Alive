@@ -34,7 +34,7 @@ public class Entity : MonoBehaviour
     protected bool canMove = true;
     protected bool facingRight = true;
     protected bool isAttacking;
-    protected bool isSliding = false;
+    protected bool isRunning = false;
 
     [Header("Audio")]
     [SerializeField] protected AudioClip[] healAudio;
@@ -74,29 +74,31 @@ public class Entity : MonoBehaviour
         Collider2D[] enemyCollider = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, whatIsTarget);
         bool didHit = false;
 
+       
         foreach (Collider2D enemy in enemyCollider)
         {
             Entity entityTarget = enemy.GetComponent<Entity>();
-            if (entityTarget != null && !entityTarget.isDead && !entityTarget.isSliding)
+            if (entityTarget != null && !entityTarget.isDead && !entityTarget.isRunning)
             {
 
                 entityTarget.TakeDamage();
                 didHit = true;
             }
         }
-        if (!didHit)
-        {
-            SoundFXManager.instance.PlayMultipleSoundFXClips(attackAudios, transform, 0.5f);
-        }
-        else
-        {
-            SoundFXManager.instance.PlayMultipleSoundFXClips(attackHitAudios, transform, 0.5f);
-        }
+        //if (!didHit)
+        //{
+           
+        //    SoundFXManager.instance.PlayMultipleSoundFXClips(attackAudios, transform, 0.5f);
+        //}
+        //else
+        //{
+        //    SoundFXManager.instance.PlayMultipleSoundFXClips(attackHitAudios, transform, 0.5f);
+        //}
     }
 
     private void TakeDamage()
     {
-        SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
+        //SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
         currentHealth--;
         PlayDamageFeedack();
         if (currentHealth <= 0)

@@ -16,7 +16,7 @@ public class Enemy : Entity
     }
     private void Start()
     {
-        audioSource.pitch = UI.instance.timeSpeed;
+        //audioSource.pitch = UI.instance.timeSpeed;
     }
     protected override void Update()
     {
@@ -36,15 +36,15 @@ public class Enemy : Entity
     {
         if (canMove)
         {
-            audioSource.clip = walk;
-            if (!audioSource.isPlaying && !UI.instance.GamePausedState)
-            {
-                audioSource.Play();
-            }
-            else if (audioSource.isPlaying && UI.instance.GamePausedState) 
-            {
-                audioSource.Stop();
-            }
+            //audioSource.clip = walk;
+            //if (!audioSource.isPlaying && !UI.instance.GamePausedState)
+            //{
+            //    audioSource.Play();
+            //}
+            //else if (audioSource.isPlaying && UI.instance.GamePausedState) 
+            //{
+            //    audioSource.Stop();
+            //}
                 rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
         }
 

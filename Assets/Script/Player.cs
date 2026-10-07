@@ -14,21 +14,23 @@ public class Player : Entity
     [SerializeField] private AudioClip standBy;
     [SerializeField] private AudioClip attack;
     [SerializeField] private AudioClip cry;
+    [SerializeField] private ProjectileBehaviour projectilePrefab;
+    [SerializeField] private Transform firePoint;
     private float specialBoost = 1f;
 
     private bool canJump = true;
 
-  override protected void Awake()
+    override protected void Awake()
     {
         base.Awake();
-        //audioSource.pitch = UI.instance.timeSpeed;
+       // audioSource.pitch = UI.instance.timeSpeed;
     }
     override protected void Update()
     {
         base.Update();
         HandleInput();
 
-        //UI.instance.AlinaHeath(currentHealth);
+       
     }
 
     private void HandleInput()
@@ -41,7 +43,11 @@ public class Player : Entity
             HandleAttack();
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            anim.SetTrigger("attack2");
+            if (isGrounded) {
+                Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+                anim.SetTrigger("attack2");
+            }
+            
         }
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -51,38 +57,27 @@ public class Player : Entity
         {
             specialBoost = 1f;
         }
-        if (Input.GetKeyDown(KeyCode.LeftControl)&& canMove && xInput != 0 && !isSliding)
-        {
-            StartCoroutine(SlideCo());
-        }
-       
+      
+
 
     }
 
-    private IEnumerator SlideCo()
-    {
-        isSliding = true;
-        specialBoost = 1.5f;
-        anim.SetTrigger("slide");
-        yield return new WaitForSeconds(0.5f);
-        isSliding = false;
-        specialBoost = 1f;
-    }
     protected override void HandleMovement()
     {
         if (canMove)
         {
-            if (isSliding)
+            if (isRunning)
             {
-                rb.linearVelocity= new Vector2(facingDir * moveSpeed * specialBoost, rb.linearVelocity.y);
+                rb.linearVelocity = new Vector2(facingDir * moveSpeed * specialBoost, rb.linearVelocity.y);
             }
-            else {
+            else
+            {
                 rb.linearVelocity = new Vector2(xInput * moveSpeed * specialBoost, rb.linearVelocity.y);
             }
-                
-            HandleAudio();
+
+            //HandleAudio();
         }
-        
+
         else
         {
 
@@ -116,7 +111,7 @@ public class Player : Entity
     {
         if (isGrounded && canJump)
         {
-            audioSource.Stop();
+            //audioSource.Stop();
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
@@ -125,14 +120,14 @@ public class Player : Entity
         base.EnableMovement(enable);
         canJump = enable;
     }
-    override protected void Die()
-    {
-        base.Die();
-        isDead = true;
-        ObjectToProtect mia = FindFirstObjectByType<ObjectToProtect>();
-        if (mia != null)
-            SoundFXManager.instance.PlaySingleSoundFXClip(cry, mia.transform, 1f);
-        UI.instance.GameOver();
-    }
+    //override protected void Die()
+    //{
+    //    base.Die();
+    //    isDead = true;
+    //    ObjectToProtect mia = FindFirstObjectByType<ObjectToProtect>();
+    //    if (mia != null)
+    //        SoundFXManager.instance.PlaySingleSoundFXClip(cry, mia.transform, 1f);
+    //    UI.instance.GameOver();
+    //}
 
 }
