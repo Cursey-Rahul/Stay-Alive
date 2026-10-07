@@ -7,7 +7,10 @@ public class Enemy : Entity
     [Header("Movement details")]
     [SerializeField] protected AudioSource audioSource;
     [SerializeField] protected AudioClip walk;
-    
+    [Header("Attack details")]
+    [SerializeField] protected Transform lineOfSightPoint;
+    [SerializeField] protected float lineOfSightDistance = 10f;
+
     override protected void Awake()
     {
         base.Awake();
@@ -34,7 +37,13 @@ public class Enemy : Entity
 
     protected override void HandleMovement()
     {
-        base.HandleMovement();
+        if (!targetDetected) {
+            base.HandleMovement();
+        }else if (targetDetected && canMove)
+        {
+            rb.linearVelocity = new Vector2(facingDir * moveSpeed * 2, rb.linearVelocity.y);
+        }
+
 
         //audioSource.clip = walk;
         //if (!audioSource.isPlaying && !UI.instance.GamePausedState)
@@ -46,13 +55,14 @@ public class Enemy : Entity
         //    audioSource.Stop();
         //}
         // rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
-
-    }
+        
+    } 
   
     protected override void HandleCollision()
     {
         base.HandleCollision();
         playerDetected = Physics2D.OverlapCircle(attackPoint.position, attackRadius, whatIsTarget);
+        targetDetected = Physics2D.Raycast(lineOfSightPoint.position, Vector2.right * facingDir, lineOfSightDistance, whatIsTarget);
     }
    
     override protected void Die()
@@ -60,7 +70,7 @@ public class Enemy : Entity
         if (isDead)
             return;
         isDead = true;
-        GameManagerScript.instance.EnemyDied();
+        //GameManagerScript.instance.EnemyDied();
         base.Die();
         Destroy(gameObject, 2.5f);
         UI.instance.UpdateKillCount();
@@ -79,5 +89,10 @@ public class Enemy : Entity
             else if (player.transform.position.x > transform.position.x && facingRight == false)
                 Flip();
         }
+    }
+    protected override void OnDrawGizmos()
+    {
+        base.OnDrawGizmos();
+        Gizmos.DrawLine(transform.position, transform.position + new Vector3(facingDir * lineOfSightDistance, 0));
     }
 }

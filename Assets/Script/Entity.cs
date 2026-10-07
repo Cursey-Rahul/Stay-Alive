@@ -19,12 +19,11 @@ public class Entity : MonoBehaviour
     private Coroutine heathGainCoroutine;
 
     [Header("Attack Details")]
-    [SerializeField] protected float lineOfSightDistance;
-    [SerializeField] protected Transform lineOfSightPoint;
     [SerializeField] protected float attackRadius;
     [SerializeField] protected Transform attackPoint;
     [SerializeField] protected LayerMask whatIsTarget;
     protected bool isDead = false;
+    protected bool targetDetected = false;
 
     [Header("collision details")]
     [SerializeField] private float groundDistanceCheck;
@@ -254,7 +253,7 @@ public class Entity : MonoBehaviour
 
 
 
-    private void OnDrawGizmos()
+    protected virtual void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + new Vector3(0, -groundDistanceCheck));
         if (attackPoint != null)
