@@ -9,8 +9,8 @@ public class ParallaxEffect : MonoBehaviour
     [SerializeField] private Transform player;
 
     [SerializeField] private float layer1Speed = 0.1f;
-    [SerializeField] private float layer2Speed = 0.4f;
-    [SerializeField] private float layer3Speed = 0.7f;
+    [SerializeField] private float layer2Speed = 0.3f;
+    [SerializeField] private float layer3Speed = 0.5f;
 
     private float lastPlayerX;
 

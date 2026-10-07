@@ -6,7 +6,6 @@ public class Player : Entity
 {
     private float xInput;
     [Header("Movement details")]
-    [SerializeField] protected float moveSpeed = 3.5f;
     [SerializeField] private float jumpForce = 8;
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;

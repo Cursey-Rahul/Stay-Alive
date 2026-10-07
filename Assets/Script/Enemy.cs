@@ -5,10 +5,9 @@ public class Enemy : Entity
 {
     protected bool playerDetected;
     [Header("Movement details")]
-    [SerializeField] protected float moveSpeed = 3.5f;
     [SerializeField] protected AudioSource audioSource;
     [SerializeField] protected AudioClip walk;
-
+    
     override protected void Awake()
     {
         base.Awake();
@@ -16,6 +15,7 @@ public class Enemy : Entity
     }
     private void Start()
     {
+       
         //audioSource.pitch = UI.instance.timeSpeed;
     }
     protected override void Update()
@@ -34,23 +34,21 @@ public class Enemy : Entity
 
     protected override void HandleMovement()
     {
-        if (canMove)
-        {
-            //audioSource.clip = walk;
-            //if (!audioSource.isPlaying && !UI.instance.GamePausedState)
-            //{
-            //    audioSource.Play();
-            //}
-            //else if (audioSource.isPlaying && UI.instance.GamePausedState) 
-            //{
-            //    audioSource.Stop();
-            //}
-                rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
-        }
+        base.HandleMovement();
 
-        else
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        //audioSource.clip = walk;
+        //if (!audioSource.isPlaying && !UI.instance.GamePausedState)
+        //{
+        //    audioSource.Play();
+        //}
+        //else if (audioSource.isPlaying && UI.instance.GamePausedState) 
+        //{
+        //    audioSource.Stop();
+        //}
+        // rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
+
     }
+  
     protected override void HandleCollision()
     {
         base.HandleCollision();

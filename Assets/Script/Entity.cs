@@ -19,6 +19,8 @@ public class Entity : MonoBehaviour
     private Coroutine heathGainCoroutine;
 
     [Header("Attack Details")]
+    [SerializeField] protected float lineOfSightDistance;
+    [SerializeField] protected Transform lineOfSightPoint;
     [SerializeField] protected float attackRadius;
     [SerializeField] protected Transform attackPoint;
     [SerializeField] protected LayerMask whatIsTarget;
@@ -43,6 +45,13 @@ public class Entity : MonoBehaviour
     [SerializeField] protected AudioClip[] attackAudios;
     [SerializeField] protected AudioClip[] attackHitAudios;
 
+    [Header("Free Movement details")]
+    [SerializeField] protected float moveSpeed = 2f;
+    private bool isWalking;
+    private float walkCounter;
+    public float walkTime = 3f;
+    public float waitTime = 1f;
+    private float waitCounter;
 
 
 
@@ -54,6 +63,9 @@ public class Entity : MonoBehaviour
         sr = GetComponentInChildren<SpriteRenderer>();
         originalMaterial = sr.material;
         currentHealth = maxHealth;
+        isWalking = true;
+        walkCounter = walkTime;
+        waitCounter = waitTime;
     }
 
     protected virtual void Update()
@@ -173,8 +185,49 @@ public class Entity : MonoBehaviour
 
     protected virtual void HandleMovement()
     {
+       
+        if (!canMove)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            return;
+        }
 
+        if (isWalking)
+        {
+            // Walking
+            walkCounter -= Time.deltaTime;
+
+            rb.linearVelocity = new Vector2(
+                facingDir * moveSpeed,
+                rb.linearVelocity.y
+            );
+
+            if (walkCounter <= 0)
+            {
+                isWalking = false;
+                waitCounter = waitTime;
+            }
+        }
+        else
+        {
+            // Waiting
+            waitCounter -= Time.deltaTime;
+
+            rb.linearVelocity = new Vector2(
+                0,
+                rb.linearVelocity.y
+            );
+
+            if (waitCounter <= 0)
+            {
+                isWalking = true;
+                walkCounter = walkTime;
+
+                Flip();
+            }
+        }
     }
+    
 
     protected virtual void HandleCollision()
     {

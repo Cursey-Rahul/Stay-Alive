@@ -118,12 +118,12 @@ TextureImporter:
       name: Idle_0
       rect:
         serializedVersion: 2
-        x: 43
+        x: 44
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: Idle_1
       rect:
         serializedVersion: 2
-        x: 171
+        x: 172
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Idle_2
       rect:
         serializedVersion: 2
-        x: 299
+        x: 300
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Idle_3
       rect:
         serializedVersion: 2
-        x: 427
+        x: 428
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Idle_4
       rect:
         serializedVersion: 2
-        x: 555
+        x: 556
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Idle_5
       rect:
         serializedVersion: 2
-        x: 683
+        x: 684
         y: 0
-        width: 46
+        width: 45
         height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
