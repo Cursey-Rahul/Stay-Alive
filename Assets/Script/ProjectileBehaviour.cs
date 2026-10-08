@@ -26,10 +26,10 @@ public class ProjectileBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-     
-        if (((1 << collision.gameObject.layer) & zombieLayer) != 0)
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Zombie"))
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Enemy>().TakeDamage();
             Destroy(gameObject);
         }
     }

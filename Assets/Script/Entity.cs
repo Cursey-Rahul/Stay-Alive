@@ -107,7 +107,7 @@ public class Entity : MonoBehaviour
         //}
     }
 
-    private void TakeDamage()
+    public void TakeDamage()
     {
         //SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
         currentHealth--;

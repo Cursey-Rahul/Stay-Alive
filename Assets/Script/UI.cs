@@ -38,10 +38,10 @@ public class UI : MonoBehaviour
     {
         instance = this;
         Time.timeScale = 1f;
-        audioSource.Stop();
-        audioSource.clip = gameStartBGM;
-        audioSource.Play();
-        gameControl.SetActive(true);
+        //audioSource.Stop();
+        //audioSource.clip = gameStartBGM;
+        //audioSource.Play();
+        //gameControl.SetActive(true);
     }
 
     private void Update()
