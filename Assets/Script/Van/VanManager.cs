@@ -9,12 +9,15 @@ public class VanManager : MonoBehaviour
 
     public int CurrentPeople => currentPeople;
     public int MaxCapacity => maxCapacity;
+    [SerializeField] private GameObject[] seats;
+    SpriteRenderer[] seatRenderers;
 
-    private void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        seatRenderers = new SpriteRenderer[seats.Length];
+        for (int i = 0; i < seats.Length; i++)
         {
-            AddPerson();
+            seatRenderers[i] = seats[i].GetComponent<SpriteRenderer>();
         }
     }
 
@@ -23,7 +26,7 @@ public class VanManager : MonoBehaviour
         return currentPeople < maxCapacity;
     }
 
-    public bool AddPerson()
+    public bool AddPerson(Sprite s)
     {
         if (!HasSpace())
         {
@@ -32,6 +35,11 @@ public class VanManager : MonoBehaviour
         }
 
         currentPeople++;
+        
+        if (currentPeople - 1 < seatRenderers.Length)
+        {
+            seatRenderers[currentPeople - 1].sprite = s;
+        }
 
         Debug.Log(
             "Person entered Van: " +

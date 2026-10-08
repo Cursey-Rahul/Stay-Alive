@@ -116,13 +116,6 @@ public class UI : MonoBehaviour
         audioSource.Play();
         gameOverUI.SetActive(true);
         Player player = FindFirstObjectByType<Player>();
-        ObjectToProtect mia = FindFirstObjectByType<ObjectToProtect>();
-
-        if (player != null)
-            player.EnableMovement(false);
-
-        if (mia != null)
-            mia.EnableMovement(false);
 
         Time.timeScale = 0.2f;
     }
@@ -133,32 +126,8 @@ public class UI : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
         
     }
-    public void AlinaHeath(int health) {
-        for (int i = 0; i < alinaHearts.Length; i++)
-        {
-            if (i < health)
-            {
-                alinaHearts[i].SetActive(true);
-            }
-            else
-            {
-                alinaHearts[i].SetActive(false);
-            }
-        }
-    }
-    public void MiaHeath(int health) {
-        for (int i = 0; i < miaHearts.Length; i++)
-        {
-            if (i < health)
-            {
-                miaHearts[i].SetActive(true);
-            }
-            else
-            {
-                miaHearts[i].SetActive(false);
-            }
-        }
-    }
+
+  
     public void GamePause() {
         gamePausedUI.SetActive(true);
         Time.timeScale = 0f;

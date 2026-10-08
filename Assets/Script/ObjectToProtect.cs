@@ -22,7 +22,7 @@ public class ObjectToProtect : Entity
         HandleFlip();
         HandleDistanceWithPlayer();
         FollowAlina();
-        UI.instance.MiaHeath(currentHealth);
+        //UI.instance.MiaHeath(currentHealth);
     }
 
     private void HandleDistanceWithPlayer()

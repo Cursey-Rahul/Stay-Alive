@@ -10,6 +10,8 @@ public class Enemy : Entity
     [Header("Attack details")]
     [SerializeField] protected Transform lineOfSightPoint;
     [SerializeField] protected float lineOfSightDistance = 10f;
+    [SerializeField] protected Transform rangeOfHearing;
+    [SerializeField] protected float hearingRange = 5f;
 
     override protected void Awake()
     {
@@ -94,5 +96,6 @@ public class Enemy : Entity
     {
         base.OnDrawGizmos();
         Gizmos.DrawLine(transform.position, transform.position + new Vector3(facingDir * lineOfSightDistance, 0));
+        Gizmos.DrawWireSphere(rangeOfHearing.position, hearingRange);
     }
 }
