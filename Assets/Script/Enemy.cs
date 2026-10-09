@@ -21,7 +21,7 @@ public class Enemy : Entity
     private void Start()
     {
        
-        //audioSource.pitch = UI.instance.timeSpeed;
+        audioSource.pitch = UI.instance.timeSpeed;
     }
     protected override void Update()
     {
@@ -47,17 +47,17 @@ public class Enemy : Entity
         }
 
 
-        //audioSource.clip = walk;
-        //if (!audioSource.isPlaying && !UI.instance.GamePausedState)
-        //{
-        //    audioSource.Play();
-        //}
-        //else if (audioSource.isPlaying && UI.instance.GamePausedState) 
-        //{
-        //    audioSource.Stop();
-        //}
-        // rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
-        
+        audioSource.clip = walk;
+        if (!audioSource.isPlaying && !UI.instance.GamePausedState)
+        {
+            audioSource.Play();
+        }
+        else if (audioSource.isPlaying && UI.instance.GamePausedState)
+        {
+            audioSource.Stop();
+        }
+        rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
+
     } 
   
     protected override void HandleCollision()
@@ -75,8 +75,8 @@ public class Enemy : Entity
         //GameManagerScript.instance.EnemyDied();
         base.Die();
         Destroy(gameObject, 2.5f);
-        UI.instance.UpdateKillCount();
-        UI.instance.UpdateSoulsCount(1);
+        //UI.instance.UpdateKillCount();
+        //UI.instance.UpdateSoulsCount(1);
 
     }
     override protected void HandleFlip()

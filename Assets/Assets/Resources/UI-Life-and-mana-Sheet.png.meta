@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: daba2127f6ac4524a938541fe89901c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5542224055144960322
+    second: UI-Life-and-mana-Sheet_0
+  - first:
+      213: 7504935405009522805
+    second: UI-Life-and-mana-Sheet_1
+  - first:
+      213: 7386842734162482985
+    second: UI-Life-and-mana-Sheet_2
+  - first:
+      213: -6111920532544219798
+    second: UI-Life-and-mana-Sheet_3
+  - first:
+      213: 2979806706118207366
+    second: UI-Life-and-mana-Sheet_4
+  - first:
+      213: -879988386603676351
+    second: UI-Life-and-mana-Sheet_5
+  - first:
+      213: 8322520485203204438
+    second: UI-Life-and-mana-Sheet_6
+  - first:
+      213: 1336564202364677901
+    second: UI-Life-and-mana-Sheet_7
+  - first:
+      213: 3357250313590211361
+    second: UI-Life-and-mana-Sheet_8
+  - first:
+      213: 7008818532317047986
+    second: UI-Life-and-mana-Sheet_9
+  - first:
+      213: 2140844056713321364
+    second: UI-Life-and-mana-Sheet_10
+  - first:
+      213: 2499076344918012660
+    second: UI-Life-and-mana-Sheet_11
+  - first:
+      213: -309829467780742384
+    second: UI-Life-and-mana-Sheet_12
+  - first:
+      213: -8913455559987354022
+    second: UI-Life-and-mana-Sheet_13
+  - first:
+      213: -1203438006465246295
+    second: UI-Life-and-mana-Sheet_14
+  - first:
+      213: -9088967667715792038
+    second: UI-Life-and-mana-Sheet_15
+  - first:
+      213: -753432037893705225
+    second: UI-Life-and-mana-Sheet_16
+  - first:
+      213: 2740803789274560221
+    second: UI-Life-and-mana-Sheet_17
+  - first:
+      213: 8024439390482852853
+    second: UI-Life-and-mana-Sheet_18
+  - first:
+      213: -4296498399256095933
+    second: UI-Life-and-mana-Sheet_19
+  - first:
+      213: 7587686513225968208
+    second: UI-Life-and-mana-Sheet_20
+  - first:
+      213: -6468962343527916589
+    second: UI-Life-and-mana-Sheet_21
+  - first:
+      213: -7496424859712118620
+    second: UI-Life-and-mana-Sheet_22
+  - first:
+      213: 5947069577017665627
+    second: UI-Life-and-mana-Sheet_23
+  - first:
+      213: -4038500786815805480
+    second: UI-Life-and-mana-Sheet_24
+  - first:
+      213: -7450507325166475918
+    second: UI-Life-and-mana-Sheet_25
+  - first:
+      213: -2650300041495021224
+    second: UI-Life-and-mana-Sheet_26
+  - first:
+      213: -740118853160239468
+    second: UI-Life-and-mana-Sheet_27
+  - first:
+      213: 6310504377857512619
+    second: UI-Life-and-mana-Sheet_28
+  - first:
+      213: -2769274364409493033
+    second: UI-Life-and-mana-Sheet_29
+  - first:
+      213: 3284365592453773804
+    second: UI-Life-and-mana-Sheet_30
+  - first:
+      213: 8140036668741521656
+    second: UI-Life-and-mana-Sheet_31
+  - first:
+      213: 507379061246053319
+    second: UI-Life-and-mana-Sheet_32
+  - first:
+      213: 3434990953005368364
+    second: UI-Life-and-mana-Sheet_33
+  - first:
+      213: -9136968211561843960
+    second: UI-Life-and-mana-Sheet_34
+  - first:
+      213: 7132852286950754764
+    second: UI-Life-and-mana-Sheet_35
+  - first:
+      213: 2940771849900086628
+    second: UI-Life-and-mana-Sheet_36
+  - first:
+      213: 3290275369229540981
+    second: UI-Life-and-mana-Sheet_37
+  - first:
+      213: 7402543387671158385
+    second: UI-Life-and-mana-Sheet_38
+  - first:
+      213: -1007817843510772285
+    second: UI-Life-and-mana-Sheet_39
+  - first:
+      213: -5820929461785858591
+    second: UI-Life-and-mana-Sheet_40
+  - first:
+      213: -8565600052387794169
+    second: UI-Life-and-mana-Sheet_41
+  - first:
+      213: -3437483084250253946
+    second: UI-Life-and-mana-Sheet_42
+  - first:
+      213: -2027124779609808354
+    second: UI-Life-and-mana-Sheet_43
+  - first:
+      213: -8591789208309986419
+    second: UI-Life-and-mana-Sheet_44
+  - first:
+      213: -1046879846768951626
+    second: UI-Life-and-mana-Sheet_45
+  - first:
+      213: 4330025979994968656
+    second: UI-Life-and-mana-Sheet_46
+  - first:
+      213: 77188281112972413
+    second: UI-Life-and-mana-Sheet_47
+  - first:
+      213: -4241498145710098519
+    second: UI-Life-and-mana-Sheet_48
+  - first:
+      213: -234363072185282033
+    second: UI-Life-and-mana-Sheet_49
+  - first:
+      213: -5163572029243264788
+    second: UI-Life-and-mana-Sheet_50
+  - first:
+      213: 811646832380081170
+    second: UI-Life-and-mana-Sheet_51
+  - first:
+      213: 6463710819714553857
+    second: UI-Life-and-mana-Sheet_52
+  - first:
+      213: -5958607415586559683
+    second: UI-Life-and-mana-Sheet_53
+  - first:
+      213: -6594989321822231222
+    second: UI-Life-and-mana-Sheet_54
+  - first:
+      213: 2423231455647507109
+    second: UI-Life-and-mana-Sheet_55
+  - first:
+      213: -3150662312221726312
+    second: UI-Life-and-mana-Sheet_56
+  - first:
+      213: -6130466258955474792
+    second: UI-Life-and-mana-Sheet_57
+  - first:
+      213: 7093595079247257690
+    second: UI-Life-and-mana-Sheet_58
+  - first:
+      213: -2061519010037968176
+    second: UI-Life-and-mana-Sheet_59
+  - first:
+      213: 4132241306603972002
+    second: UI-Life-and-mana-Sheet_60
+  - first:
+      213: 4035744904130761942
+    second: UI-Life-and-mana-Sheet_61
+  - first:
+      213: 1155014652568197525
+    second: UI-Life-and-mana-Sheet_62
+  - first:
+      213: -879558939195534881
+    second: UI-Life-and-mana-Sheet_63
+  - first:
+      213: -6256229588153421897
+    second: UI-Life-and-mana-Sheet_64
+  - first:
+      213: 2088692586438094665
+    second: UI-Life-and-mana-Sheet_65
+  - first:
+      213: 5060174031261186828
+    second: UI-Life-and-mana-Sheet_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2415a880a6fe9ec40800000000000000
+      internalID: 5542224055144960322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57058ddecf2e62860800000000000000
+      internalID: 7504935405009522805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9271e6d5456538660800000000000000
+      internalID: 7386842734162482985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65194278a81e2ba0800000000000000
+      internalID: -6111920532544219798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687a08959666a5920800000000000000
+      internalID: 2979806706118207366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dc40a8937a9c3f0800000000000000
+      internalID: -879988386603676351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659d27469488f7370800000000000000
+      internalID: 8322520485203204438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f23758f0e6c8210800000000000000
+      internalID: 1336564202364677901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1230d9b6f59579e20800000000000000
+      internalID: 3357250313590211361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcaee12253544160800000000000000
+      internalID: 7008818532317047986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b57efa35ec5bd10800000000000000
+      internalID: 2140844056713321364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f27b6de1b08ea220800000000000000
+      internalID: 2499076344918012660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0130bf79db343bbf0800000000000000
+      internalID: -309829467780742384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5629b9c46b0d4480800000000000000
+      internalID: -8913455559987354022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab4f6b52878c4fe0800000000000000
+      internalID: -1203438006465246295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a532ac6cf008dd180800000000000000
+      internalID: -9088967667715792038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f172faad854b85f0800000000000000
+      internalID: -753432037893705225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd631c2668a490620800000000000000
+      internalID: 2740803789274560221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe16f3c198c5f60800000000000000
+      internalID: 8024439390482852853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3435e4e3875cf54c0800000000000000
+      internalID: -4296498399256095933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a2bd7bea0ec4960800000000000000
+      internalID: 7587686513225968208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbd3a8c501a936a0800000000000000
+      internalID: -6468962343527916589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0a37fce4957f790800000000000000
+      internalID: -7496424859712118620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 64
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58aba8754c388250800000000000000
+      internalID: 5947069577017665627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d755b86eec54f7c0800000000000000
+      internalID: -4038500786815805480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275a10fef0b7a9890800000000000000
+      internalID: -7450507325166475918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8597c76772e383bd0800000000000000
+      internalID: -2650300041495021224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e70d903d19ab5f0800000000000000
+      internalID: -740118853160239468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba49eb31c4a639750800000000000000
+      internalID: 6310504377857512619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9c6c743af8199d0800000000000000
+      internalID: -2769274364409493033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f8b2ea19649d20800000000000000
+      internalID: 3284365592453773804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 49
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f01ef2f83837f070800000000000000
+      internalID: 8140036668741521656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbca0861929a0700800000000000000
+      internalID: 507379061246053319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24c098821a8baf20800000000000000
+      internalID: 3434990953005368364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803f1d142d7f23180800000000000000
+      internalID: -9136968211561843960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9480f0d5bfcf260800000000000000
+      internalID: 7132852286950754764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46553c6aa68bfc820800000000000000
+      internalID: 2940771849900086628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 16
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ed424040869ad20800000000000000
+      internalID: 3290275369229540981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e5e80adfd1bb660800000000000000
+      internalID: 7402543387671158385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd7d3fc2038302f0800000000000000
+      internalID: -1007817843510772285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ede5afbe77e73fa0800000000000000
+      internalID: -5820929461785858591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703bb558220e02980800000000000000
+      internalID: -8565600052387794169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68579d1f85b9b40d0800000000000000
+      internalID: -3437483084250253946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1227fbc0c43ed3e0800000000000000
+      internalID: -2027124779609808354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b06ad7c35d3c880800000000000000
+      internalID: -8591789208309986419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be32d2735cb871f0800000000000000
+      internalID: -1046879846768951626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05210d5ffa7571c30800000000000000
+      internalID: 4330025979994968656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ccf8c255a321100800000000000000
+      internalID: 77188281112972413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7b87da8eb2325c0800000000000000
+      internalID: -4241498145710098519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f025ded07006fbcf0800000000000000
+      internalID: -234363072185282033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0ffc0e89e4758b0800000000000000
+      internalID: -5163572029243264788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214f5176e7c834b00800000000000000
+      internalID: 811646832380081170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1085feb8eb6b3b950800000000000000
+      internalID: 6463710819714553857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3964f52026ce4da0800000000000000
+      internalID: -5958607415586559683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45aa4f4724e974a0800000000000000
+      internalID: -6594989321822231222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a22c6a8b2c01a120800000000000000
+      internalID: 2423231455647507109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89920d8e1599644d0800000000000000
+      internalID: -3150662312221726312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898e0770b653ceaa0800000000000000
+      internalID: -6130466258955474792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50edfe1423817260800000000000000
+      internalID: 7093595079247257690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d8fcf1630463e0800000000000000
+      internalID: -2061519010037968176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56356239ba85930800000000000000
+      internalID: 4132241306603972002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d49ec6ab98d10830800000000000000
+      internalID: 4035744904130761942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599d2bcf4bf670010800000000000000
+      internalID: 1155014652568197525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd11b3e0ecd2bc3f0800000000000000
+      internalID: -879558939195534881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfa3d426586d29a0800000000000000
+      internalID: -6256229588153421897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f62ab47d68cfc10800000000000000
+      internalID: 2088692586438094665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Life-and-mana-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bbaf2b879593640800000000000000
+      internalID: 5060174031261186828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI-Life-and-mana-Sheet_0: 5542224055144960322
+      UI-Life-and-mana-Sheet_1: 7504935405009522805
+      UI-Life-and-mana-Sheet_10: 2140844056713321364
+      UI-Life-and-mana-Sheet_11: 2499076344918012660
+      UI-Life-and-mana-Sheet_12: -309829467780742384
+      UI-Life-and-mana-Sheet_13: -8913455559987354022
+      UI-Life-and-mana-Sheet_14: -1203438006465246295
+      UI-Life-and-mana-Sheet_15: -9088967667715792038
+      UI-Life-and-mana-Sheet_16: -753432037893705225
+      UI-Life-and-mana-Sheet_17: 2740803789274560221
+      UI-Life-and-mana-Sheet_18: 8024439390482852853
+      UI-Life-and-mana-Sheet_19: -4296498399256095933
+      UI-Life-and-mana-Sheet_2: 7386842734162482985
+      UI-Life-and-mana-Sheet_20: 7587686513225968208
+      UI-Life-and-mana-Sheet_21: -6468962343527916589
+      UI-Life-and-mana-Sheet_22: -7496424859712118620
+      UI-Life-and-mana-Sheet_23: 5947069577017665627
+      UI-Life-and-mana-Sheet_24: -4038500786815805480
+      UI-Life-and-mana-Sheet_25: -7450507325166475918
+      UI-Life-and-mana-Sheet_26: -2650300041495021224
+      UI-Life-and-mana-Sheet_27: -740118853160239468
+      UI-Life-and-mana-Sheet_28: 6310504377857512619
+      UI-Life-and-mana-Sheet_29: -2769274364409493033
+      UI-Life-and-mana-Sheet_3: -6111920532544219798
+      UI-Life-and-mana-Sheet_30: 3284365592453773804
+      UI-Life-and-mana-Sheet_31: 8140036668741521656
+      UI-Life-and-mana-Sheet_32: 507379061246053319
+      UI-Life-and-mana-Sheet_33: 3434990953005368364
+      UI-Life-and-mana-Sheet_34: -9136968211561843960
+      UI-Life-and-mana-Sheet_35: 7132852286950754764
+      UI-Life-and-mana-Sheet_36: 2940771849900086628
+      UI-Life-and-mana-Sheet_37: 3290275369229540981
+      UI-Life-and-mana-Sheet_38: 7402543387671158385
+      UI-Life-and-mana-Sheet_39: -1007817843510772285
+      UI-Life-and-mana-Sheet_4: 2979806706118207366
+      UI-Life-and-mana-Sheet_40: -5820929461785858591
+      UI-Life-and-mana-Sheet_41: -8565600052387794169
+      UI-Life-and-mana-Sheet_42: -3437483084250253946
+      UI-Life-and-mana-Sheet_43: -2027124779609808354
+      UI-Life-and-mana-Sheet_44: -8591789208309986419
+      UI-Life-and-mana-Sheet_45: -1046879846768951626
+      UI-Life-and-mana-Sheet_46: 4330025979994968656
+      UI-Life-and-mana-Sheet_47: 77188281112972413
+      UI-Life-and-mana-Sheet_48: -4241498145710098519
+      UI-Life-and-mana-Sheet_49: -234363072185282033
+      UI-Life-and-mana-Sheet_5: -879988386603676351
+      UI-Life-and-mana-Sheet_50: -5163572029243264788
+      UI-Life-and-mana-Sheet_51: 811646832380081170
+      UI-Life-and-mana-Sheet_52: 6463710819714553857
+      UI-Life-and-mana-Sheet_53: -5958607415586559683
+      UI-Life-and-mana-Sheet_54: -6594989321822231222
+      UI-Life-and-mana-Sheet_55: 2423231455647507109
+      UI-Life-and-mana-Sheet_56: -3150662312221726312
+      UI-Life-and-mana-Sheet_57: -6130466258955474792
+      UI-Life-and-mana-Sheet_58: 7093595079247257690
+      UI-Life-and-mana-Sheet_59: -2061519010037968176
+      UI-Life-and-mana-Sheet_6: 8322520485203204438
+      UI-Life-and-mana-Sheet_60: 4132241306603972002
+      UI-Life-and-mana-Sheet_61: 4035744904130761942
+      UI-Life-and-mana-Sheet_62: 1155014652568197525
+      UI-Life-and-mana-Sheet_63: -879558939195534881
+      UI-Life-and-mana-Sheet_64: -6256229588153421897
+      UI-Life-and-mana-Sheet_65: 2088692586438094665
+      UI-Life-and-mana-Sheet_66: 5060174031261186828
+      UI-Life-and-mana-Sheet_7: 1336564202364677901
+      UI-Life-and-mana-Sheet_8: 3357250313590211361
+      UI-Life-and-mana-Sheet_9: 7008818532317047986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

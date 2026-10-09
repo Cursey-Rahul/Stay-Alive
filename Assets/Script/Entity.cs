@@ -96,20 +96,20 @@ public class Entity : MonoBehaviour
                 didHit = true;
             }
         }
-        //if (!didHit)
-        //{
-           
-        //    SoundFXManager.instance.PlayMultipleSoundFXClips(attackAudios, transform, 0.5f);
-        //}
-        //else
-        //{
-        //    SoundFXManager.instance.PlayMultipleSoundFXClips(attackHitAudios, transform, 0.5f);
-        //}
+        if (!didHit)
+        {
+
+            SoundFXManager.instance.PlayMultipleSoundFXClips(attackAudios, transform, 0.5f);
+        }
+        else
+        {
+            SoundFXManager.instance.PlayMultipleSoundFXClips(attackHitAudios, transform, 0.5f);
+        }
     }
 
     public void TakeDamage()
     {
-        //SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
+        SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
         currentHealth--;
         PlayDamageFeedack();
         if (currentHealth <= 0)

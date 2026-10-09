@@ -1,0 +1,3575 @@
+fileFormatVersion: 2
+guid: 23a0a611754759a4d9abfbaf845749ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4140218086560565577
+    second: UI-Dialog-box2_0
+  - first:
+      213: -3435943546351483274
+    second: UI-Dialog-box2_1
+  - first:
+      213: -5899487196901626029
+    second: UI-Dialog-box2_2
+  - first:
+      213: -2643126157546302566
+    second: UI-Dialog-box2_3
+  - first:
+      213: -2025624933191192196
+    second: UI-Dialog-box2_4
+  - first:
+      213: -1851645234015883828
+    second: UI-Dialog-box2_5
+  - first:
+      213: -1224426717787876546
+    second: UI-Dialog-box2_6
+  - first:
+      213: 1361310457993391394
+    second: UI-Dialog-box2_7
+  - first:
+      213: 8110375432521282686
+    second: UI-Dialog-box2_8
+  - first:
+      213: -5904444269808062659
+    second: UI-Dialog-box2_9
+  - first:
+      213: 6190336741611798810
+    second: UI-Dialog-box2_10
+  - first:
+      213: -1974251038365948053
+    second: UI-Dialog-box2_11
+  - first:
+      213: 7846770433469683097
+    second: UI-Dialog-box2_12
+  - first:
+      213: -3967393305697601704
+    second: UI-Dialog-box2_13
+  - first:
+      213: -2899251408700533986
+    second: UI-Dialog-box2_14
+  - first:
+      213: 8694322206996328857
+    second: UI-Dialog-box2_15
+  - first:
+      213: -7509169700550689943
+    second: UI-Dialog-box2_16
+  - first:
+      213: 4173840431223673063
+    second: UI-Dialog-box2_17
+  - first:
+      213: 7724848219220586839
+    second: UI-Dialog-box2_18
+  - first:
+      213: -4929339750989565014
+    second: UI-Dialog-box2_19
+  - first:
+      213: 3578454024923042127
+    second: UI-Dialog-box2_20
+  - first:
+      213: -9071504441200842769
+    second: UI-Dialog-box2_21
+  - first:
+      213: -6847155835586697179
+    second: UI-Dialog-box2_22
+  - first:
+      213: 5147119038039914691
+    second: UI-Dialog-box2_23
+  - first:
+      213: -8884005676351924947
+    second: UI-Dialog-box2_24
+  - first:
+      213: -3868748312942314403
+    second: UI-Dialog-box2_25
+  - first:
+      213: -8961287204659754719
+    second: UI-Dialog-box2_26
+  - first:
+      213: -7042923929858640648
+    second: UI-Dialog-box2_27
+  - first:
+      213: -5762853888824565682
+    second: UI-Dialog-box2_28
+  - first:
+      213: 4875143023717079006
+    second: UI-Dialog-box2_29
+  - first:
+      213: 8019151265780392753
+    second: UI-Dialog-box2_30
+  - first:
+      213: 8955928014091795064
+    second: UI-Dialog-box2_31
+  - first:
+      213: 1683566453999157099
+    second: UI-Dialog-box2_32
+  - first:
+      213: -3717002329292724972
+    second: UI-Dialog-box2_33
+  - first:
+      213: 5256366010897506924
+    second: UI-Dialog-box2_34
+  - first:
+      213: 2958193371683511828
+    second: UI-Dialog-box2_35
+  - first:
+      213: -7272892166488184896
+    second: UI-Dialog-box2_36
+  - first:
+      213: -7161465711595655119
+    second: UI-Dialog-box2_37
+  - first:
+      213: 8696115018088021271
+    second: UI-Dialog-box2_38
+  - first:
+      213: -3100294566700790460
+    second: UI-Dialog-box2_39
+  - first:
+      213: -4005074424583808541
+    second: UI-Dialog-box2_40
+  - first:
+      213: 8827118652511472057
+    second: UI-Dialog-box2_41
+  - first:
+      213: 8814678001361679133
+    second: UI-Dialog-box2_42
+  - first:
+      213: 1274946312319909189
+    second: UI-Dialog-box2_43
+  - first:
+      213: -5036759650145258203
+    second: UI-Dialog-box2_44
+  - first:
+      213: 6500828796209572333
+    second: UI-Dialog-box2_45
+  - first:
+      213: 964674953653666268
+    second: UI-Dialog-box2_46
+  - first:
+      213: -1013740108361534454
+    second: UI-Dialog-box2_47
+  - first:
+      213: 3280252983773045959
+    second: UI-Dialog-box2_48
+  - first:
+      213: -7948700517989433855
+    second: UI-Dialog-box2_49
+  - first:
+      213: 2257845498388756239
+    second: UI-Dialog-box2_50
+  - first:
+      213: -8370630028524263096
+    second: UI-Dialog-box2_51
+  - first:
+      213: -3813879023917611691
+    second: UI-Dialog-box2_52
+  - first:
+      213: 6637420159321798043
+    second: UI-Dialog-box2_53
+  - first:
+      213: 5456620523134202563
+    second: UI-Dialog-box2_54
+  - first:
+      213: -6414238695575165455
+    second: UI-Dialog-box2_55
+  - first:
+      213: 1556583636869512288
+    second: UI-Dialog-box2_56
+  - first:
+      213: 3640991608457906093
+    second: UI-Dialog-box2_57
+  - first:
+      213: 8707081097024323521
+    second: UI-Dialog-box2_58
+  - first:
+      213: -4155319491059696670
+    second: UI-Dialog-box2_59
+  - first:
+      213: -5207261214151406619
+    second: UI-Dialog-box2_60
+  - first:
+      213: 6625997268261330620
+    second: UI-Dialog-box2_61
+  - first:
+      213: 3743677435344267462
+    second: UI-Dialog-box2_62
+  - first:
+      213: 8539386494620118275
+    second: UI-Dialog-box2_63
+  - first:
+      213: -4189412429227124047
+    second: UI-Dialog-box2_64
+  - first:
+      213: 377864038128024638
+    second: UI-Dialog-box2_65
+  - first:
+      213: -6094693751766874028
+    second: UI-Dialog-box2_66
+  - first:
+      213: 1826329330900296078
+    second: UI-Dialog-box2_67
+  - first:
+      213: 4459834026087743390
+    second: UI-Dialog-box2_68
+  - first:
+      213: 1927027826445649488
+    second: UI-Dialog-box2_69
+  - first:
+      213: 1760712205110552808
+    second: UI-Dialog-box2_70
+  - first:
+      213: 8973924145854442323
+    second: UI-Dialog-box2_71
+  - first:
+      213: -2734137131348430931
+    second: UI-Dialog-box2_72
+  - first:
+      213: 7321238567718935175
+    second: UI-Dialog-box2_73
+  - first:
+      213: 8253856616644320123
+    second: UI-Dialog-box2_74
+  - first:
+      213: 5429708660546628959
+    second: UI-Dialog-box2_75
+  - first:
+      213: 6376267945287579884
+    second: UI-Dialog-box2_76
+  - first:
+      213: -4532259243857010520
+    second: UI-Dialog-box2_77
+  - first:
+      213: 269570609216109984
+    second: UI-Dialog-box2_78
+  - first:
+      213: -5100629007938806230
+    second: UI-Dialog-box2_79
+  - first:
+      213: -6174381744216558219
+    second: UI-Dialog-box2_80
+  - first:
+      213: -7910160901364605973
+    second: UI-Dialog-box2_81
+  - first:
+      213: -8863363176834786347
+    second: UI-Dialog-box2_82
+  - first:
+      213: 5011098175212624337
+    second: UI-Dialog-box2_83
+  - first:
+      213: -6088066628938461818
+    second: UI-Dialog-box2_84
+  - first:
+      213: 6797129635308635012
+    second: UI-Dialog-box2_85
+  - first:
+      213: 5155540794956580406
+    second: UI-Dialog-box2_86
+  - first:
+      213: 2791431348312661583
+    second: UI-Dialog-box2_87
+  - first:
+      213: 9206119873860573801
+    second: UI-Dialog-box2_88
+  - first:
+      213: 1119700060910012775
+    second: UI-Dialog-box2_89
+  - first:
+      213: -6567675568571220572
+    second: UI-Dialog-box2_90
+  - first:
+      213: 2914540877864102410
+    second: UI-Dialog-box2_91
+  - first:
+      213: -421793216503994083
+    second: UI-Dialog-box2_92
+  - first:
+      213: -4481775270825162355
+    second: UI-Dialog-box2_93
+  - first:
+      213: 1202446361048910793
+    second: UI-Dialog-box2_94
+  - first:
+      213: -885081129937274475
+    second: UI-Dialog-box2_95
+  - first:
+      213: -4974089719647256642
+    second: UI-Dialog-box2_96
+  - first:
+      213: 1953738506815976051
+    second: UI-Dialog-box2_97
+  - first:
+      213: -7663790943834143093
+    second: UI-Dialog-box2_98
+  - first:
+      213: -1870178382495460440
+    second: UI-Dialog-box2_99
+  - first:
+      213: 5817290472584589049
+    second: UI-Dialog-box2_100
+  - first:
+      213: -6101975658960849230
+    second: UI-Dialog-box2_101
+  - first:
+      213: 1565575006056036620
+    second: UI-Dialog-box2_102
+  - first:
+      213: -3057868005795802816
+    second: UI-Dialog-box2_103
+  - first:
+      213: -8654882236885266461
+    second: UI-Dialog-box2_104
+  - first:
+      213: 379895107097602488
+    second: UI-Dialog-box2_105
+  - first:
+      213: 8814818757213099405
+    second: UI-Dialog-box2_106
+  - first:
+      213: 448810054859629220
+    second: UI-Dialog-box2_107
+  - first:
+      213: -8480818524736064401
+    second: UI-Dialog-box2_108
+  - first:
+      213: 9078823056632766478
+    second: UI-Dialog-box2_109
+  - first:
+      213: -6635533229584144059
+    second: UI-Dialog-box2_110
+  - first:
+      213: 1919754055664139119
+    second: UI-Dialog-box2_111
+  - first:
+      213: -780629007111160549
+    second: UI-Dialog-box2_112
+  - first:
+      213: -5451202143557096158
+    second: UI-Dialog-box2_113
+  - first:
+      213: 677363314141926857
+    second: UI-Dialog-box2_114
+  - first:
+      213: 5380817712320988690
+    second: UI-Dialog-box2_115
+  - first:
+      213: -1053123807664367800
+    second: UI-Dialog-box2_116
+  - first:
+      213: -4004356554776206815
+    second: UI-Dialog-box2_117
+  - first:
+      213: -2081188640955241674
+    second: UI-Dialog-box2_118
+  - first:
+      213: -3472061255740454013
+    second: UI-Dialog-box2_119
+  - first:
+      213: 5878085765905345851
+    second: UI-Dialog-box2_120
+  - first:
+      213: 2010895751657179928
+    second: UI-Dialog-box2_121
+  - first:
+      213: 1192230086687075350
+    second: UI-Dialog-box2_122
+  - first:
+      213: 4043633151307757612
+    second: UI-Dialog-box2_123
+  - first:
+      213: 2744625048299400778
+    second: UI-Dialog-box2_124
+  - first:
+      213: 3172281508521871874
+    second: UI-Dialog-box2_125
+  - first:
+      213: -654574337768129670
+    second: UI-Dialog-box2_126
+  - first:
+      213: 1918862712079416179
+    second: UI-Dialog-box2_127
+  - first:
+      213: -8432209752720393182
+    second: UI-Dialog-box2_128
+  - first:
+      213: 3141444404890226411
+    second: UI-Dialog-box2_129
+  - first:
+      213: 2804837921994121861
+    second: UI-Dialog-box2_130
+  - first:
+      213: -7995791233273332519
+    second: UI-Dialog-box2_131
+  - first:
+      213: 3885586282825371696
+    second: UI-Dialog-box2_132
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI-Dialog-box2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 321
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6f8e9069dfa86c0800000000000000
+      internalID: -4140218086560565577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6768c6b8c831150d0800000000000000
+      internalID: -3435943546351483274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fa6b7b6afc02ea0800000000000000
+      internalID: -5899487196901626029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93d8ea73cab15bd0800000000000000
+      internalID: -2643126157546302566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71f6f00bd883e3e0800000000000000
+      internalID: -2025624933191192196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd20785872ad46e0800000000000000
+      internalID: -1851645234015883828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3391c03366f10fe0800000000000000
+      internalID: -1224426717787876546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d68b526a854e210800000000000000
+      internalID: 1361310457993391394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_8
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e747c7a3c77dd8070800000000000000
+      internalID: 8110375432521282686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_9
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3feffd38333f0ea0800000000000000
+      internalID: -5904444269808062659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_10
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1102dbf77e78e550800000000000000
+      internalID: 6190336741611798810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_11
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6760c0042d0a94e0800000000000000
+      internalID: -1974251038365948053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9959ff0a22455ec60800000000000000
+      internalID: 7846770433469683097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_13
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857b1a10fccf0f8c0800000000000000
+      internalID: -3967393305697601704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e139ad5643ac3c7d0800000000000000
+      internalID: -2899251408700533986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_15
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9917ec69bff68a870800000000000000
+      internalID: 8694322206996328857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bbc8051f11ac790800000000000000
+      internalID: -7509169700550689943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_17
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0104c12c57ce930800000000000000
+      internalID: 4173840431223673063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751b372078c243b60800000000000000
+      internalID: 7724848219220586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_19
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3fd0dfc97779bb0800000000000000
+      internalID: -4929339750989565014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_20
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41da98e9f839a130800000000000000
+      internalID: 3578454024923042127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe768db06ca8b1280800000000000000
+      internalID: -9071504441200842769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528ac1a9b040af0a0800000000000000
+      internalID: -6847155835586697179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_23
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f4079e7d3e6740800000000000000
+      internalID: 5147119038039914691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_24
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d255d7628eba5b480800000000000000
+      internalID: -8884005676351924947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c7ea928e17f4ac0800000000000000
+      internalID: -3868748312942314403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_26
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129800c24cc13a380800000000000000
+      internalID: -8961287204659754719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f47da43002824e90800000000000000
+      internalID: -7042923929858640648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_28
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e402228cbea3600b0800000000000000
+      internalID: -5762853888824565682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_29
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed751ed10ccf7a340800000000000000
+      internalID: 4875143023717079006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_30
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133e6f4c69fb94f60800000000000000
+      internalID: 8019151265780392753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a39e90419d94c70800000000000000
+      internalID: 8955928014091795064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_32
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f326e15ca3d5710800000000000000
+      internalID: 1683566453999157099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4152535331e8a6cc0800000000000000
+      internalID: -3717002329292724972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_34
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62abf8990d52f840800000000000000
+      internalID: 5256366010897506924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5c18c23d9d0920800000000000000
+      internalID: 2958193371683511828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_36
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c720c6ab1f711b90800000000000000
+      internalID: -7272892166488184896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_37
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130733dd0ec5d9c90800000000000000
+      internalID: -7161465711595655119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_38
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d7313f88ecea870800000000000000
+      internalID: 8696115018088021271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_39
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dc9b4848a89f4d0800000000000000
+      internalID: -3100294566700790460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_40
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e91ea7d70e1b68c0800000000000000
+      internalID: -4005074424583808541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9cb2975a9308a70800000000000000
+      internalID: 8827118652511472057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_42
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13fc98a0f6045a70800000000000000
+      internalID: 8814678001361679133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_43
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 66
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54db5858ae481b110800000000000000
+      internalID: 1274946312319909189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_44
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525321ab8c5d91ab0800000000000000
+      internalID: -5036759650145258203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9a3b7e855973a50800000000000000
+      internalID: 6500828796209572333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_46
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd14e3062c6336d00800000000000000
+      internalID: 964674953653666268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a047b821eb87ee1f0800000000000000
+      internalID: -1013740108361534454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_48
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4253f85bcc58d20800000000000000
+      internalID: 3280252983773045959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_49
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb64f2efa80b190800000000000000
+      internalID: -7948700517989433855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f073d29a48a755f10800000000000000
+      internalID: 2257845498388756239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_51
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849e79ba65c85db80800000000000000
+      internalID: -8370630028524263096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_52
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555c31b0c31621bc0800000000000000
+      internalID: -3813879023917611691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b957465e77adc1c50800000000000000
+      internalID: 6637420159321798043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_54
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c23583947fc9bb40800000000000000
+      internalID: 5456620523134202563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_55
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f56da5f3eb0cf6a0800000000000000
+      internalID: -6414238695575165455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_56
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cfac212981a9510800000000000000
+      internalID: 1556583636869512288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_57
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7cf4cb396678230800000000000000
+      internalID: 3640991608457906093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_58
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf37aa2024c5d870800000000000000
+      internalID: 8707081097024323521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_59
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb312f40f65556c0800000000000000
+      internalID: -4155319491059696670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_60
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb06d5d3871cb7b0800000000000000
+      internalID: -5207261214151406619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_61
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbedc61d86544fb50800000000000000
+      internalID: 6625997268261330620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_62
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c82757eac634f330800000000000000
+      internalID: 3743677435344267462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_63
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30da993f5cef18670800000000000000
+      internalID: 8539386494620118275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_64
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba9f4297973cd5c0800000000000000
+      internalID: -4189412429227124047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_65
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cf30637517e3500800000000000000
+      internalID: 377864038128024638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_66
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4588427e25c4b6ba0800000000000000
+      internalID: -6094693751766874028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_67
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e816033a9dc685910800000000000000
+      internalID: 1826329330900296078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_68
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ff822ea6384ed30800000000000000
+      internalID: 4459834026087743390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_69
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056069b299d2eba10800000000000000
+      internalID: 1927027826445649488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_70
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e82f410c6e4f6810800000000000000
+      internalID: 1760712205110552808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_71
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b64faf678c98c70800000000000000
+      internalID: 8973924145854442323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_72
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf65ced3c46e0ad0800000000000000
+      internalID: -2734137131348430931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ad6c010b34a9560800000000000000
+      internalID: 7321238567718935175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_74
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b971eacd69b8270800000000000000
+      internalID: 8253856616644320123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_75
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d6eb942433a5b40800000000000000
+      internalID: 5429708660546628959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8739fc9ed0d7850800000000000000
+      internalID: 6376267945287579884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_77
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a02ceb0b3e2a11c0800000000000000
+      internalID: -4532259243857010520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_78
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad36347a05bdb300800000000000000
+      internalID: 269570609216109984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_79
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e11ca01fce639b0800000000000000
+      internalID: -5100629007938806230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_80
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b0545480305aa0800000000000000
+      internalID: -6174381744216558219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_81
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb9afde196793290800000000000000
+      internalID: -7910160901364605973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_82
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db1c7996220ff480800000000000000
+      internalID: -8863363176834786347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_83
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9182c8d3ffa8540800000000000000
+      internalID: 5011098175212624337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_84
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d863d28a7d28ba0800000000000000
+      internalID: -6088066628938461818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_85
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4830adcf361445e50800000000000000
+      internalID: 6797129635308635012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_86
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6360c6ca9092c8740800000000000000
+      internalID: 5155540794956580406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_87
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed01b85082db620800000000000000
+      internalID: 2791431348312661583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_88
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a9f19cf35b2cf70800000000000000
+      internalID: 9206119873860573801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_89
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7694681e549f98f00800000000000000
+      internalID: 1119700060910012775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_90
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adfc4f0eddead4a0800000000000000
+      internalID: -6567675568571220572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_91
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae17c8c77827820800000000000000
+      internalID: 2914540877864102410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_92
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d192c99ed4d752af0800000000000000
+      internalID: -421793216503994083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_93
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89065bf2298dc1c0800000000000000
+      internalID: -4481775270825162355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_94
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb08c33892ffa010800000000000000
+      internalID: 1202446361048910793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_95
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599ffa4d66f87b3f0800000000000000
+      internalID: -885081129937274475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_96
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfb08bf0cb78fab0800000000000000
+      internalID: -4974089719647256642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_97
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372b4c212d21d1b10800000000000000
+      internalID: 1953738506815976051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_98
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8609e7bdbeb4a590800000000000000
+      internalID: -7663790943834143093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_99
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a35eb47baacb06e0800000000000000
+      internalID: -1870178382495460440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_100
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe2bad0dda2bb050800000000000000
+      internalID: 5817290472584589049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_101
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6fe83c77d615ba0800000000000000
+      internalID: -6101975658960849230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_102
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0933395c2a0ab510800000000000000
+      internalID: 1565575006056036620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_103
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041528000454095d0800000000000000
+      internalID: -3057868005795802816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_104
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef8d99067ea3e780800000000000000
+      internalID: -8654882236885266461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_105
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9267e4698a54500800000000000000
+      internalID: 379895107097602488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_106
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85132fe4f6845a70800000000000000
+      internalID: 8814818757213099405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_107
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a22883fd5e7a3600800000000000000
+      internalID: 448810054859629220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_108
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64fd8c2c741e4a80800000000000000
+      internalID: -8480818524736064401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_109
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 17
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00e835e7757efd70800000000000000
+      internalID: 9078823056632766478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_110
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549265b2fa9d9e3a0800000000000000
+      internalID: -6635533229584144059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_111
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bf9ff642654aa10800000000000000
+      internalID: 1919754055664139119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_112
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1df5c1dd06aa25f0800000000000000
+      internalID: -780629007111160549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_113
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d6e6a38807954b0800000000000000
+      internalID: -5451202143557096158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_114
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c59f4b685a766900800000000000000
+      internalID: 677363314141926857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_115
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216c50853318caa40800000000000000
+      internalID: 5380817712320988690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_116
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84798a30a7d8261f0800000000000000
+      internalID: -1053123807664367800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_117
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ae8eedeaad68c0800000000000000
+      internalID: -4004356554776206815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_118
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63be84925f12e13e0800000000000000
+      internalID: -2081188640955241674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_119
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b81350fa2c0dfc0800000000000000
+      internalID: -3472061255740454013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_120
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d61145cd7239150800000000000000
+      internalID: 5878085765905345851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_121
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b4edd280328eb10800000000000000
+      internalID: 2010895751657179928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_122
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c248772f6ab8010800000000000000
+      internalID: 1192230086687075350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_123
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2831b15deedd1830800000000000000
+      internalID: 4043633151307757612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_124
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e668590fdd61620800000000000000
+      internalID: 2744625048299400778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_125
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a8cfa7935360c20800000000000000
+      internalID: 3172281508521871874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_126
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b7e3e9b1c7ae6f0800000000000000
+      internalID: -654574337768129670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_127
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b7c36587b21aa10800000000000000
+      internalID: 1918862712079416179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_128
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c3489d7e5cafa80800000000000000
+      internalID: -8432209752720393182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_129
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beece1bca07a89b20800000000000000
+      internalID: 3141444404890226411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_130
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5822109ba39cce620800000000000000
+      internalID: 2804837921994121861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_131
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc7f82ac3e390190800000000000000
+      internalID: -7995791233273332519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Dialog-box2_132
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030dfe333206ce530800000000000000
+      internalID: 3885586282825371696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI-Dialog-box2_0: -4140218086560565577
+      UI-Dialog-box2_1: -3435943546351483274
+      UI-Dialog-box2_10: 6190336741611798810
+      UI-Dialog-box2_100: 5817290472584589049
+      UI-Dialog-box2_101: -6101975658960849230
+      UI-Dialog-box2_102: 1565575006056036620
+      UI-Dialog-box2_103: -3057868005795802816
+      UI-Dialog-box2_104: -8654882236885266461
+      UI-Dialog-box2_105: 379895107097602488
+      UI-Dialog-box2_106: 8814818757213099405
+      UI-Dialog-box2_107: 448810054859629220
+      UI-Dialog-box2_108: -8480818524736064401
+      UI-Dialog-box2_109: 9078823056632766478
+      UI-Dialog-box2_11: -1974251038365948053
+      UI-Dialog-box2_110: -6635533229584144059
+      UI-Dialog-box2_111: 1919754055664139119
+      UI-Dialog-box2_112: -780629007111160549
+      UI-Dialog-box2_113: -5451202143557096158
+      UI-Dialog-box2_114: 677363314141926857
+      UI-Dialog-box2_115: 5380817712320988690
+      UI-Dialog-box2_116: -1053123807664367800
+      UI-Dialog-box2_117: -4004356554776206815
+      UI-Dialog-box2_118: -2081188640955241674
+      UI-Dialog-box2_119: -3472061255740454013
+      UI-Dialog-box2_12: 7846770433469683097
+      UI-Dialog-box2_120: 5878085765905345851
+      UI-Dialog-box2_121: 2010895751657179928
+      UI-Dialog-box2_122: 1192230086687075350
+      UI-Dialog-box2_123: 4043633151307757612
+      UI-Dialog-box2_124: 2744625048299400778
+      UI-Dialog-box2_125: 3172281508521871874
+      UI-Dialog-box2_126: -654574337768129670
+      UI-Dialog-box2_127: 1918862712079416179
+      UI-Dialog-box2_128: -8432209752720393182
+      UI-Dialog-box2_129: 3141444404890226411
+      UI-Dialog-box2_13: -3967393305697601704
+      UI-Dialog-box2_130: 2804837921994121861
+      UI-Dialog-box2_131: -7995791233273332519
+      UI-Dialog-box2_132: 3885586282825371696
+      UI-Dialog-box2_14: -2899251408700533986
+      UI-Dialog-box2_15: 8694322206996328857
+      UI-Dialog-box2_16: -7509169700550689943
+      UI-Dialog-box2_17: 4173840431223673063
+      UI-Dialog-box2_18: 7724848219220586839
+      UI-Dialog-box2_19: -4929339750989565014
+      UI-Dialog-box2_2: -5899487196901626029
+      UI-Dialog-box2_20: 3578454024923042127
+      UI-Dialog-box2_21: -9071504441200842769
+      UI-Dialog-box2_22: -6847155835586697179
+      UI-Dialog-box2_23: 5147119038039914691
+      UI-Dialog-box2_24: -8884005676351924947
+      UI-Dialog-box2_25: -3868748312942314403
+      UI-Dialog-box2_26: -8961287204659754719
+      UI-Dialog-box2_27: -7042923929858640648
+      UI-Dialog-box2_28: -5762853888824565682
+      UI-Dialog-box2_29: 4875143023717079006
+      UI-Dialog-box2_3: -2643126157546302566
+      UI-Dialog-box2_30: 8019151265780392753
+      UI-Dialog-box2_31: 8955928014091795064
+      UI-Dialog-box2_32: 1683566453999157099
+      UI-Dialog-box2_33: -3717002329292724972
+      UI-Dialog-box2_34: 5256366010897506924
+      UI-Dialog-box2_35: 2958193371683511828
+      UI-Dialog-box2_36: -7272892166488184896
+      UI-Dialog-box2_37: -7161465711595655119
+      UI-Dialog-box2_38: 8696115018088021271
+      UI-Dialog-box2_39: -3100294566700790460
+      UI-Dialog-box2_4: -2025624933191192196
+      UI-Dialog-box2_40: -4005074424583808541
+      UI-Dialog-box2_41: 8827118652511472057
+      UI-Dialog-box2_42: 8814678001361679133
+      UI-Dialog-box2_43: 1274946312319909189
+      UI-Dialog-box2_44: -5036759650145258203
+      UI-Dialog-box2_45: 6500828796209572333
+      UI-Dialog-box2_46: 964674953653666268
+      UI-Dialog-box2_47: -1013740108361534454
+      UI-Dialog-box2_48: 3280252983773045959
+      UI-Dialog-box2_49: -7948700517989433855
+      UI-Dialog-box2_5: -1851645234015883828
+      UI-Dialog-box2_50: 2257845498388756239
+      UI-Dialog-box2_51: -8370630028524263096
+      UI-Dialog-box2_52: -3813879023917611691
+      UI-Dialog-box2_53: 6637420159321798043
+      UI-Dialog-box2_54: 5456620523134202563
+      UI-Dialog-box2_55: -6414238695575165455
+      UI-Dialog-box2_56: 1556583636869512288
+      UI-Dialog-box2_57: 3640991608457906093
+      UI-Dialog-box2_58: 8707081097024323521
+      UI-Dialog-box2_59: -4155319491059696670
+      UI-Dialog-box2_6: -1224426717787876546
+      UI-Dialog-box2_60: -5207261214151406619
+      UI-Dialog-box2_61: 6625997268261330620
+      UI-Dialog-box2_62: 3743677435344267462
+      UI-Dialog-box2_63: 8539386494620118275
+      UI-Dialog-box2_64: -4189412429227124047
+      UI-Dialog-box2_65: 377864038128024638
+      UI-Dialog-box2_66: -6094693751766874028
+      UI-Dialog-box2_67: 1826329330900296078
+      UI-Dialog-box2_68: 4459834026087743390
+      UI-Dialog-box2_69: 1927027826445649488
+      UI-Dialog-box2_7: 1361310457993391394
+      UI-Dialog-box2_70: 1760712205110552808
+      UI-Dialog-box2_71: 8973924145854442323
+      UI-Dialog-box2_72: -2734137131348430931
+      UI-Dialog-box2_73: 7321238567718935175
+      UI-Dialog-box2_74: 8253856616644320123
+      UI-Dialog-box2_75: 5429708660546628959
+      UI-Dialog-box2_76: 6376267945287579884
+      UI-Dialog-box2_77: -4532259243857010520
+      UI-Dialog-box2_78: 269570609216109984
+      UI-Dialog-box2_79: -5100629007938806230
+      UI-Dialog-box2_8: 8110375432521282686
+      UI-Dialog-box2_80: -6174381744216558219
+      UI-Dialog-box2_81: -7910160901364605973
+      UI-Dialog-box2_82: -8863363176834786347
+      UI-Dialog-box2_83: 5011098175212624337
+      UI-Dialog-box2_84: -6088066628938461818
+      UI-Dialog-box2_85: 6797129635308635012
+      UI-Dialog-box2_86: 5155540794956580406
+      UI-Dialog-box2_87: 2791431348312661583
+      UI-Dialog-box2_88: 9206119873860573801
+      UI-Dialog-box2_89: 1119700060910012775
+      UI-Dialog-box2_9: -5904444269808062659
+      UI-Dialog-box2_90: -6567675568571220572
+      UI-Dialog-box2_91: 2914540877864102410
+      UI-Dialog-box2_92: -421793216503994083
+      UI-Dialog-box2_93: -4481775270825162355
+      UI-Dialog-box2_94: 1202446361048910793
+      UI-Dialog-box2_95: -885081129937274475
+      UI-Dialog-box2_96: -4974089719647256642
+      UI-Dialog-box2_97: 1953738506815976051
+      UI-Dialog-box2_98: -7663790943834143093
+      UI-Dialog-box2_99: -1870178382495460440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

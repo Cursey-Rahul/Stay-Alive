@@ -7,6 +7,9 @@ public class VanShelter : MonoBehaviour
     private bool playerInside;
     private bool npcInside;
     private SpriteRenderer playerAndNPCSprite;
+    private GameObject character;
+    private int index = 0;
+    private string IDName;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +19,8 @@ public class VanShelter : MonoBehaviour
 
             npcInside = true;
             playerAndNPCSprite = other.GetComponentInChildren<SpriteRenderer>();
+            character = other.gameObject;
+            IDName = other.name;
         }
         if (other.CompareTag("Player"))
         {
@@ -23,6 +28,8 @@ public class VanShelter : MonoBehaviour
 
             playerInside = true;
             playerAndNPCSprite = other.GetComponentInChildren<SpriteRenderer>();
+            character = other.gameObject;
+            IDName = other.name;
         }
     }
 
@@ -33,6 +40,8 @@ public class VanShelter : MonoBehaviour
             Debug.Log("SOMEONE LEFT THE VAN");
             playerInside = false;
             playerAndNPCSprite = null;
+            character = null;
+            IDName = null;
         }
 
         if (other.CompareTag("Player"))
@@ -40,6 +49,8 @@ public class VanShelter : MonoBehaviour
             playerInside = false;
             Debug.Log("PLAYER LEFT VAN TRIGGER");
             playerAndNPCSprite = null;
+            character = null;
+            IDName = null;
         }
     }
 
@@ -47,12 +58,19 @@ public class VanShelter : MonoBehaviour
     {
         if (playerInside && Input.GetKeyDown(KeyCode.E))
         {
+            van.RecordPassengerDetails(character, IDName, playerAndNPCSprite.sprite);
             van.AddPerson(playerAndNPCSprite.sprite);
+            character.SetActive(false);
+           
+           
         }
 
         if (npcInside && Input.GetKeyDown(KeyCode.P))
         {
+            van.RecordPassengerDetails(character, IDName, playerAndNPCSprite.sprite);
             van.AddPerson(playerAndNPCSprite.sprite);
+            character.SetActive(false);
+
         }
     }
 }

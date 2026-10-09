@@ -5,6 +5,9 @@ using UnityEngine.UIElements;
 public class Player : Entity
 {
     private float xInput;
+    [SerializeField] private InventoryManager inventoryManager;
+    [SerializeField] private InventoryData inventoryData;
+
     [Header("Movement details")]
     [SerializeField] private float jumpForce = 8;
     [Header("Audio")]
@@ -22,14 +25,23 @@ public class Player : Entity
     override protected void Awake()
     {
         base.Awake();
-       // audioSource.pitch = UI.instance.timeSpeed;
+       audioSource.pitch = UI.instance.timeSpeed;
     }
     override protected void Update()
     {
         base.Update();
         HandleInput();
+        HandleInventory();
 
-       
+    }
+
+    private void HandleInventory()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            UI.instance.ToggleInventory();
+            inventoryManager.UpdateInventoryUI(inventoryData);
+        }
     }
 
     private void HandleInput()
@@ -74,7 +86,7 @@ public class Player : Entity
                 rb.linearVelocity = new Vector2(xInput * moveSpeed * specialBoost, rb.linearVelocity.y);
             }
 
-            //HandleAudio();
+            HandleAudio();
         }
 
         else

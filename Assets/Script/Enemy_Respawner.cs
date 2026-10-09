@@ -1,21 +1,20 @@
-
 using UnityEngine;
 
 public class Enemy_Respawner : MonoBehaviour
 {
+    [Header("Enemies")]
     [SerializeField] private GameObject[] enemyPrefabs;
+
+    [Header("Spawn Points")]
     [SerializeField] private Transform[] respawnPoints;
 
-    private int index;
+    [Header("Spawn Settings")]
+    [SerializeField] private float cooldown = 3f;
+    [SerializeField] private int maxEnemies = 10;
 
-    [SerializeField] private float cooldown;
-    [SerializeField] private float timer;
-    [SerializeField] private float cooldownDecreaserate = .05f;
-    [SerializeField] private float cooldownCap = 0.5f;
-
-    public int enemiesLeftToSpawn;
-
+    private float timer;
     private Transform player;
+    private int currentEnemies;
 
     private void Awake()
     {
@@ -24,86 +23,57 @@ public class Enemy_Respawner : MonoBehaviour
 
     private void Update()
     {
-        if (!GameManagerScript.instance.canSpawnEnemy)
+        if (!GameManagerScript.instance.gameStarted)
+            return;
+
+        if (currentEnemies >= maxEnemies)
             return;
 
         timer -= Time.deltaTime;
 
-        if (timer < 0 && enemiesLeftToSpawn > 0)
+        if (timer <= 0f)
         {
             timer = cooldown;
-
             CreateNewEnemy();
-
-            cooldown = Mathf.Max(
-                cooldownCap,
-                cooldown - cooldownDecreaserate
-            );
         }
-    }
-
-    public void StartWave()
-    {
-        enemiesLeftToSpawn =
-            GameManagerScript.instance.totalEnemies;
-
-        timer = 0;
     }
 
     private void CreateNewEnemy()
     {
-        enemiesLeftToSpawn--;
+        int enemyIndex = Random.Range(0, enemyPrefabs.Length);
 
-        if (enemiesLeftToSpawn <= 0)
-        {
-            GameManagerScript.instance.canSpawnEnemy = false;
-        }
+        int respawnIndex = Random.Range(
+            0,
+            respawnPoints.Length
+        );
 
-        int wave = GameManagerScript.instance.waveCount;
+        Vector3 spawnPoint =
+            respawnPoints[respawnIndex].position;
 
-        if (wave == 4)
-        {
-            index = 2;
-        }
-        else if (wave >= 2)
-        {
-            int randomChance = Random.Range(0, 100);
+        GameObject enemy = Instantiate(
+            enemyPrefabs[enemyIndex],
+            spawnPoint,
+            Quaternion.identity
+        );
 
-            if (randomChance < 50)
-            {
-                index = Random.Range(
-                    1,
-                    enemyPrefabs.Length - 1
-                );
-            }
-            else
-            {
-                index = 0;
-            }
-        }
-        else
-        {
-            index = 0;
-        }
-
-        int respawnRandomIndex =
-            Random.Range(0, respawnPoints.Length);
-
-        Vector3 spawnpoint =
-            respawnPoints[respawnRandomIndex].position;
-
-        GameObject enemy =
-            Instantiate(
-                enemyPrefabs[index],
-                spawnpoint,
-                Quaternion.identity
-            );
+        currentEnemies++;
 
         bool createdOnRight =
             enemy.transform.position.x >
-            player.transform.position.x;
+            player.position.x;
+
+        Enemy enemyScript =
+            enemy.GetComponent<Enemy>();
 
         if (createdOnRight)
-            enemy.GetComponent<Enemy>().Flip();
+        {
+            enemyScript.Flip();
+        }
+    }
+
+    public void EnemyDied()
+    {
+        currentEnemies--;
+        currentEnemies = Mathf.Max(0, currentEnemies);
     }
 }
