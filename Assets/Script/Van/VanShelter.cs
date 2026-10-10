@@ -10,6 +10,7 @@ public class VanShelter : MonoBehaviour
     private GameObject character;
     private int index = 0;
     private string IDName;
+    private bool permittedToAdd = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,6 +22,13 @@ public class VanShelter : MonoBehaviour
             playerAndNPCSprite = other.GetComponentInChildren<SpriteRenderer>();
             character = other.gameObject;
             IDName = other.name;
+            permittedToAdd = other.GetComponent<NPC>().permitted;
+            if (permittedToAdd)
+            {
+                van.RecordPassengerDetails(character, IDName, playerAndNPCSprite.sprite);
+                van.AddPerson(playerAndNPCSprite.sprite);
+                character.SetActive(false);
+            }
         }
         if (other.CompareTag("Player"))
         {
@@ -42,6 +50,7 @@ public class VanShelter : MonoBehaviour
             playerAndNPCSprite = null;
             character = null;
             IDName = null;
+
         }
 
         if (other.CompareTag("Player"))
@@ -63,14 +72,6 @@ public class VanShelter : MonoBehaviour
             character.SetActive(false);
            
            
-        }
-
-        if (npcInside && Input.GetKeyDown(KeyCode.P))
-        {
-            van.RecordPassengerDetails(character, IDName, playerAndNPCSprite.sprite);
-            van.AddPerson(playerAndNPCSprite.sprite);
-            character.SetActive(false);
-
         }
     }
 }

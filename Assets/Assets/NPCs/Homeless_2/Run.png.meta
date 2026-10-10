@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,11 +124,11 @@ TextureImporter:
       name: Run_0
       rect:
         serializedVersion: 2
-        x: 55
+        x: 56
         y: 0
-        width: 43
-        height: 63
-      alignment: 0
+        width: 41
+        height: 62
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -146,11 +146,11 @@ TextureImporter:
       name: Run_1
       rect:
         serializedVersion: 2
-        x: 181
+        x: 182
         y: 0
-        width: 45
-        height: 62
-      alignment: 0
+        width: 43
+        height: 61
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -168,11 +168,11 @@ TextureImporter:
       name: Run_2
       rect:
         serializedVersion: 2
-        x: 305
+        x: 306
         y: 0
-        width: 45
-        height: 61
-      alignment: 0
+        width: 43
+        height: 60
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -190,11 +190,11 @@ TextureImporter:
       name: Run_3
       rect:
         serializedVersion: 2
-        x: 433
+        x: 434
         y: 0
-        width: 40
-        height: 61
-      alignment: 0
+        width: 38
+        height: 60
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -212,11 +212,11 @@ TextureImporter:
       name: Run_4
       rect:
         serializedVersion: 2
-        x: 567
+        x: 568
         y: 0
-        width: 43
-        height: 62
-      alignment: 0
+        width: 41
+        height: 61
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -234,11 +234,11 @@ TextureImporter:
       name: Run_5
       rect:
         serializedVersion: 2
-        x: 692
+        x: 693
         y: 0
-        width: 46
-        height: 62
-      alignment: 0
+        width: 44
+        height: 61
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -256,11 +256,11 @@ TextureImporter:
       name: Run_6
       rect:
         serializedVersion: 2
-        x: 817
+        x: 818
         y: 0
-        width: 48
-        height: 61
-      alignment: 0
+        width: 46
+        height: 60
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -278,11 +278,11 @@ TextureImporter:
       name: Run_7
       rect:
         serializedVersion: 2
-        x: 945
+        x: 946
         y: 0
-        width: 42
-        height: 62
-      alignment: 0
+        width: 40
+        height: 61
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd3b33b299e66a54eb16ef5df016226c
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +308,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":6,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run_0: 4944230376442633554
       Run_1: -2274363484027164459

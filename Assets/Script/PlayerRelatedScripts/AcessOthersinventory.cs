@@ -6,20 +6,17 @@ public class AcessOthersinventory : MonoBehaviour
     [SerializeField] private InventoryManager inventoryManager;
 
     public InventoryData otherInventoryData;
+    public NPC otherNPC;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         InventoryData inventoryData =
             other.GetComponent<InventoryData>();
-
+        NPC npc = other.GetComponent<NPC>();
         if (inventoryData != null)
         {
             otherInventoryData = inventoryData;
-
-            Debug.Log(
-                "Inventory detected: " +
-                inventoryData.CharacterName
-            );
+            otherNPC = npc;
         }
     }
 
@@ -27,11 +24,12 @@ public class AcessOthersinventory : MonoBehaviour
     {
         InventoryData inventoryData =
             other.GetComponent<InventoryData>();
-
+        NPC npc = other.GetComponent<NPC>();
+       
         if (inventoryData == otherInventoryData)
         {
             otherInventoryData = null;
-
+            otherNPC = null;
             Debug.Log("Inventory no longer detected.");
         }
     }
@@ -42,6 +40,19 @@ public class AcessOthersinventory : MonoBehaviour
         {
             OpenOtherInventory();
         }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+           Permit();
+        }
+    }
+    private void Permit()
+    {
+        if (otherNPC == null)
+        {
+            Debug.Log("No character nearby.");
+            return;
+        }
+        otherNPC.permitted = true;
     }
 
     private void OpenOtherInventory()

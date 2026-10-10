@@ -9,13 +9,30 @@ public class NPC : Entity
     [SerializeField] private float detectionDistance = 8f;
     [SerializeField] private LayerMask zombieLayer;
 
-    [Header("SafeZone Detection")]
+    [Header("Van / Safe Zone")]
     [SerializeField] private GameObject safeZone;
-    [SerializeField] private float safeZoneDetectionDistance = 8f;
-    [SerializeField] private LayerMask safeZoneLayer;
+
+    [Header("Permission")]
+    public bool permitted = false;
+
+    [Header("Walking Sounds")]
+    [SerializeField] private AudioClip[] walkingClips;
+    [SerializeField] private float walkingVolume = 0.5f;
+    [SerializeField] private float walkingInterval = 0.5f;
+
+    [Header("Running Sounds")]
+    [SerializeField] private AudioClip[] runningClips;
+    [SerializeField] private float runningVolume = 0.7f;
+    [SerializeField] private float runningInterval = 0.25f;
+
+    [Header("Drinking Sound")]
+    [SerializeField] private AudioClip drinkingClip;
+    [SerializeField] private float drinkingVolume = 0.7f;
 
     private bool isRunningFromZombie;
     private bool isRunningToSafeZone;
+    private bool wasMoving;
+    private float footstepTimer;
 
     protected override void HandleMovement()
     {
@@ -29,37 +46,46 @@ public class NPC : Entity
 
         if (ZombieDetected() && !isRunningFromZombie)
         {
-            isRunningToSafeZone = false;
             StartCoroutine(RunAwayCoroutine());
         }
 
         if (isRunningFromZombie)
             return;
 
-        if (SafeZoneDetected())
-            isRunningToSafeZone = true;
+        // Permission controls whether the NPC goes to the van.
+        isRunningToSafeZone = permitted && safeZone != null;
 
-        if (isRunningToSafeZone && safeZone != null)
+        if (isRunningToSafeZone)
         {
-            float difference = safeZone.transform.position.x - transform.position.x;
+            float difference =
+                safeZone.transform.position.x - transform.position.x;
 
             int direction = difference > 0.1f ? 1 :
                             difference < -0.1f ? -1 : 0;
+
             if (direction == 0)
             {
-                rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+                rb.linearVelocity = new Vector2(
+                    0f, rb.linearVelocity.y);
+
                 isRunning = false;
                 anim.SetBool("run", false);
                 return;
             }
 
             facingDir = direction;
-            rb.linearVelocity = new Vector2(direction * (moveSpeed + 1f), rb.linearVelocity.y);
+
+            rb.linearVelocity = new Vector2(
+                direction * (moveSpeed + 1f),
+                rb.linearVelocity.y
+            );
+
             isRunning = true;
             anim.SetBool("run", true);
             return;
         }
 
+        // Without permission, use the Entity movement behaviour.
         isRunning = false;
         anim.SetBool("run", false);
         base.HandleMovement();
@@ -74,26 +100,6 @@ public class NPC : Entity
                 detectionDistance,
                 zombieLayer
             ).collider != null;
-    }
-
-    private bool SafeZoneDetected()
-    {
-        if (detectionPoint == null || safeZone == null)
-            return false;
-
-        Vector2 direction = safeZone.transform.position.x >= detectionPoint.position.x
-            ? Vector2.right : Vector2.left;
-
-        RaycastHit2D hit = Physics2D.Raycast(
-            detectionPoint.position,
-            direction,
-            safeZoneDetectionDistance,
-            safeZoneLayer
-        );
-
-        return hit.collider != null &&
-            (hit.collider.gameObject == safeZone ||
-             hit.collider.transform.IsChildOf(safeZone.transform));
     }
 
     private IEnumerator RunAwayCoroutine()
@@ -112,6 +118,63 @@ public class NPC : Entity
         isRunningFromZombie = false;
         isRunning = false;
         anim.SetBool("run", false);
+    }
+
+    private void LateUpdate()
+    {
+        UpdateMovementSounds();
+    }
+
+    private void UpdateMovementSounds()
+    {
+        if (rb == null)
+            return;
+
+        bool moving = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        bool running = moving && isRunning;
+
+        if (moving)
+        {
+            float interval = running
+                ? runningInterval
+                : walkingInterval;
+
+            footstepTimer -= Time.deltaTime;
+
+            if (footstepTimer <= 0f)
+            {
+                AudioClip[] clips = running
+                    ? runningClips
+                    : walkingClips;
+
+                float volume = running
+                    ? runningVolume
+                    : walkingVolume;
+
+                if (clips != null && clips.Length > 0 &&
+                    SoundFXManager.instance != null)
+                {
+                    SoundFXManager.instance.PlayMultipleSoundFXClips(
+                        clips, transform, volume);
+                }
+
+                footstepTimer = interval;
+            }
+        }
+        else
+        {
+            footstepTimer = 0f;
+
+            // Play drinking sound once when movement stops.
+            if (wasMoving && drinkingClip != null &&
+                SoundFXManager.instance != null)
+            {
+                SoundFXManager.instance.PlaySingleSoundFXClip(
+                    drinkingClip, transform, drinkingVolume);
+            }
+        }
+
+        wasMoving = moving;
     }
 
     protected override void OnDrawGizmos()

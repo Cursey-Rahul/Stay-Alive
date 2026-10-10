@@ -233,17 +233,22 @@ public class Entity : MonoBehaviour
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundDistanceCheck, whatIsGround);
     }
 
+
     protected virtual void HandleFlip()
     {
-        if (rb.linearVelocityX < 0 && facingRight == true)
+        if (!canMove || Time.timeScale == 0f)
+            return;
+
+        if (rb.linearVelocityX < 0 && facingRight)
         {
             Flip();
         }
-        else if (rb.linearVelocityX > 0 && facingRight == false)
+        else if (rb.linearVelocityX > 0 && !facingRight)
         {
             Flip();
         }
     }
+
     public void Flip()
     {
         facingRight = !facingRight;

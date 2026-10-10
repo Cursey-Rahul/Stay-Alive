@@ -33,6 +33,9 @@ public class CameraFollow2D : MonoBehaviour
         if (targetPosition.x < 0f)
             targetPosition.x = 0f;
 
+        if (targetPosition.x > 55f)
+            targetPosition.x = 55f;
+
         transform.position = Vector3.Lerp(
             transform.position,
             targetPosition,

@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,11 +112,11 @@ TextureImporter:
       name: Dead_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 37
         y: 0
-        width: 31
-        height: 53
-      alignment: 0
+        width: 29
+        height: 52
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -134,11 +134,11 @@ TextureImporter:
       name: Dead_1
       rect:
         serializedVersion: 2
-        x: 165
+        x: 166
         y: 0
-        width: 32
-        height: 51
-      alignment: 0
+        width: 30
+        height: 50
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -156,11 +156,11 @@ TextureImporter:
       name: Dead_2
       rect:
         serializedVersion: 2
-        x: 291
+        x: 292
         y: 0
-        width: 40
-        height: 46
-      alignment: 0
+        width: 38
+        height: 45
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -178,11 +178,11 @@ TextureImporter:
       name: Dead_3
       rect:
         serializedVersion: 2
-        x: 417
+        x: 418
         y: 0
-        width: 66
-        height: 11
-      alignment: 0
+        width: 64
+        height: 10
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4550bc6962d0fae4d9e5fe06f0e832aa
     internalID: 0
     vertices: []
     indices: 
@@ -208,7 +208,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":6,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Dead_0: 2649847697073447219
       Dead_1: -8293461521501190705

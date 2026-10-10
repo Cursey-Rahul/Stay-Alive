@@ -20,8 +20,7 @@ public class Enemy : Entity
     }
     private void Start()
     {
-       
-        audioSource.pitch = UI.instance.timeSpeed;
+        //audioSource.pitch = UI.instance.timeSpeed;
     }
     protected override void Update()
     {
@@ -39,14 +38,24 @@ public class Enemy : Entity
 
     protected override void HandleMovement()
     {
-        if (!targetDetected) {
+        if (!targetDetected)
+        {
             base.HandleMovement();
-        }else if (targetDetected && canMove)
+            HandleAudio();
+        }
+        else if (targetDetected && canMove)
         {
             rb.linearVelocity = new Vector2(facingDir * moveSpeed * 2, rb.linearVelocity.y);
+            HandleAudio();
         }
 
+       
+        rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
 
+    }
+
+    private void HandleAudio()
+    {
         audioSource.clip = walk;
         if (!audioSource.isPlaying && !UI.instance.GamePausedState)
         {
@@ -56,10 +65,8 @@ public class Enemy : Entity
         {
             audioSource.Stop();
         }
-        rb.linearVelocity = new Vector2(facingDir * moveSpeed, rb.linearVelocity.y);
+    }
 
-    } 
-  
     protected override void HandleCollision()
     {
         base.HandleCollision();

@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,11 +127,11 @@ TextureImporter:
       name: Idle_2_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 0
-        width: 30
-        height: 59
-      alignment: 0
+        width: 28
+        height: 58
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -149,11 +149,11 @@ TextureImporter:
       name: Idle_2_1
       rect:
         serializedVersion: 2
-        x: 177
+        x: 178
         y: 0
-        width: 33
-        height: 52
-      alignment: 0
+        width: 31
+        height: 51
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -171,11 +171,11 @@ TextureImporter:
       name: Idle_2_2
       rect:
         serializedVersion: 2
-        x: 306
+        x: 307
         y: 0
-        width: 33
-        height: 46
-      alignment: 0
+        width: 31
+        height: 45
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -193,11 +193,11 @@ TextureImporter:
       name: Idle_2_3
       rect:
         serializedVersion: 2
-        x: 438
+        x: 439
         y: 0
-        width: 29
-        height: 43
-      alignment: 0
+        width: 27
+        height: 42
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -215,11 +215,11 @@ TextureImporter:
       name: Idle_2_4
       rect:
         serializedVersion: 2
-        x: 566
+        x: 567
         y: 0
-        width: 29
-        height: 39
-      alignment: 0
+        width: 27
+        height: 38
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -237,11 +237,11 @@ TextureImporter:
       name: Idle_2_5
       rect:
         serializedVersion: 2
-        x: 694
+        x: 695
         y: 0
-        width: 29
-        height: 39
-      alignment: 0
+        width: 27
+        height: 38
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -259,11 +259,11 @@ TextureImporter:
       name: Idle_2_6
       rect:
         serializedVersion: 2
-        x: 821
+        x: 822
         y: 0
-        width: 30
-        height: 39
-      alignment: 0
+        width: 28
+        height: 38
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -281,11 +281,11 @@ TextureImporter:
       name: Idle_2_7
       rect:
         serializedVersion: 2
-        x: 948
+        x: 949
         y: 0
-        width: 27
-        height: 49
-      alignment: 0
+        width: 25
+        height: 48
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -303,11 +303,11 @@ TextureImporter:
       name: Idle_2_8
       rect:
         serializedVersion: 2
-        x: 1078
+        x: 1079
         y: 0
-        width: 25
-        height: 61
-      alignment: 0
+        width: 23
+        height: 60
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b9c3902109498884e9ffebe3bf39d96a
     internalID: 0
     vertices: []
     indices: 
@@ -333,7 +333,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":6,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Idle_2_0: -6188768998144020764
       Idle_2_1: 8893443453730532091
