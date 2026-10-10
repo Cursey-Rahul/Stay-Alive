@@ -28,6 +28,7 @@ public class UI : MonoBehaviour
     [SerializeField] private AudioClip gameResumeSFX;
     [SerializeField] private AudioClip gameFailSFX;
     [SerializeField] private AudioClip gameClearSFX;
+    [SerializeField] private AudioClip interactSound;
 
     private float timer;
     private Coroutine sfxCoroutine;
@@ -81,6 +82,28 @@ public class UI : MonoBehaviour
 
         UpdateGameUIVisibility();
     }
+
+    public void StartNPCDialogue()
+    {
+        if (GameOverState)
+            return;
+
+        Time.timeScale = 0f;
+        GamePausedState = true;
+
+        StopAudio();
+        PlaySFX(interactSound);
+    }
+
+    public void EndNPCDialogue()
+    {
+        Time.timeScale = 1f;
+        GamePausedState = false;
+
+        StopAudio();
+        PlaySFX(gameResumeSFX);
+    }
+
 
     private void PlayBGM(AudioClip clip)
     {

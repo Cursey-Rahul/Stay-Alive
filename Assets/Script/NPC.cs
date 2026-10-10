@@ -90,7 +90,10 @@ public class NPC : Entity
         anim.SetBool("run", false);
         base.HandleMovement();
     }
-
+    public void GivePermission()
+    {
+        permitted = true;
+    }
     private bool ZombieDetected()
     {
         return detectionPoint != null &&
