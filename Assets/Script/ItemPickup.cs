@@ -61,7 +61,7 @@ public class ItemPickup : MonoBehaviour
 
         collected = true;
 
-        Debug.Log("Collected item: " + itemName);
+       
 
         player.RefreshInventoryUI();
 
@@ -70,7 +70,7 @@ public class ItemPickup : MonoBehaviour
         {
             if (MissionManager.instance != null)
             {
-                Debug.Log("Updating mission: " + missionTaskName);
+                
                 MissionManager.instance.AddProgress(missionTaskName);
             }
             else

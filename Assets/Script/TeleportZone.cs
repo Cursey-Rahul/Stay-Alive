@@ -9,12 +9,20 @@ public class TeleportZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (destination == null || cameraFollow == null)
+        if (destination == null)
             return;
 
-        other.transform.root.position = destination.position;
+        Transform root = other.transform.root;
 
-        StartCoroutine(UpdateCameraPosition(destination.position.y));
+        if (root.CompareTag("Player") || root.GetComponent<NPC>() != null)
+        {
+            root.position = destination.position;
+
+            if (root.CompareTag("Player") && cameraFollow != null)
+            {
+                StartCoroutine(UpdateCameraPosition(destination.position.y));
+            }
+        }
     }
 
     private IEnumerator UpdateCameraPosition(float destinationY)
@@ -22,6 +30,7 @@ public class TeleportZone : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         cameraFollow.onTeleportValueChange =
-            (destinationY+ 2.1789f) - cameraFollow.transform.position.y ;
+            (destinationY + 2.1789f) -
+            cameraFollow.transform.position.y;
     }
 }

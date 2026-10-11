@@ -32,9 +32,7 @@ public class MissionTaskUI : MonoBehaviour
             0,
             requiredAmount
         );
-        Debug.Log(
-    $"[TASK UI] {TaskName}: {currentAmount}/{requiredAmount}"
-);
+        
 
 
         UpdateText();

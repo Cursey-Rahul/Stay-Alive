@@ -42,12 +42,16 @@ public class UI : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        Time.timeScale = 1f;
 
-        if (gameUI != null) gameUI.SetActive(true);
+   
+        Time.timeScale = 0f;
+        GamePausedState = true;
+        GameOverState = false;
+
+        if (gameUI != null) gameUI.SetActive(false);
         if (gameOverUI != null) gameOverUI.SetActive(false);
         if (gamePausedUI != null) gamePausedUI.SetActive(false);
-        if (gameControl != null) gameControl.SetActive(false);
+        if (gameControl != null) gameControl.SetActive(true);
         if (gameClear != null) gameClear.SetActive(false);
         if (inventoryUI != null) inventoryUI.SetActive(false);
 
@@ -59,6 +63,7 @@ public class UI : MonoBehaviour
         }
     }
 
+
     private void Start()
     {
         PlayBGM(gameStartBGM);
@@ -67,12 +72,14 @@ public class UI : MonoBehaviour
     private void Update()
     {
         FixSpeed();
+
         TogglePause();
         ToggleGameTutorial();
 
         GamePausedState = Time.timeScale == 0f;
 
-        if (gameUI != null && gameUI.activeSelf)
+        if (gameUI != null && gameUI.activeSelf &&
+            Time.timeScale > 0f)
         {
             timer += Time.deltaTime;
 
@@ -205,7 +212,8 @@ public class UI : MonoBehaviour
             (gameControl == null || !gameControl.activeSelf) &&
             (inventoryUI == null || !inventoryUI.activeSelf) &&
             (gameOverUI == null || !gameOverUI.activeSelf) &&
-            (gameClear == null || !gameClear.activeSelf);
+            (gameClear == null || !gameClear.activeSelf) &&
+            !GameOverState;
 
         gameUI.SetActive(showGameUI);
     }
@@ -246,24 +254,39 @@ public class UI : MonoBehaviour
         if (!Input.GetKeyDown(KeyCode.Tab))
             return;
 
-        if (gameControl != null && gameControl.activeSelf)
+        if (GameOverState)
+            return;
+
+       
+        if (gamePausedUI != null && gamePausedUI.activeSelf)
+            return;
+
+        if (inventoryUI != null && inventoryUI.activeSelf)
+            return;
+
+        if (gameClear != null && gameClear.activeSelf)
+            return;
+
+        if (gameControl == null)
+            return;
+
+        bool openingTutorial = !gameControl.activeSelf;
+
+        gameControl.SetActive(openingTutorial);
+
+        Time.timeScale = openingTutorial ? 0f : 1f;
+        GamePausedState = openingTutorial;
+
+        if (openingTutorial)
         {
-            gameControl.SetActive(false);
-            Time.timeScale = 1f;
-
             StopAudio();
-            PlaySFX(gameResumeSFX);
-            return;
+            PlaySFX(gamePauseSFX);
         }
-
-        if (!IsGameplayUIActive())
-            return;
-
-        gameControl.SetActive(true);
-        Time.timeScale = 0f;
-
-        StopAudio();
-        PlaySFX(gamePauseSFX);
+        else
+        {
+            
+            PlayBGM(gameStartBGM);
+        }
     }
 
     public void ToggleInventory()
@@ -276,8 +299,8 @@ public class UI : MonoBehaviour
             inventoryUI.SetActive(false);
             Time.timeScale = 1f;
 
-            StopAudio();
-            PlaySFX(gameResumeSFX);
+            
+            PlayBGM(gameStartBGM);
             return;
         }
 
@@ -299,6 +322,7 @@ public class UI : MonoBehaviour
         GamePausedState = true;
         Time.timeScale = 0f;
 
+        StopAudio();
         PlaySFX(gamePauseSFX);
     }
 
@@ -310,8 +334,9 @@ public class UI : MonoBehaviour
         gamePausedUI.SetActive(false);
         GamePausedState = false;
         Time.timeScale = 1f;
-        StopAudio();
-        PlaySFX(gameResumeSFX);
+
+       
+        PlayBGM(gameStartBGM);
     }
 
     public void GameStart()
@@ -380,17 +405,29 @@ public class UI : MonoBehaviour
         PlaySFX(gameClearSFX);
     }
 
+
     public void RestartLevel()
     {
+        
+
+        Time.timeScale = 1f;
         GameOverState = false;
         GamePausedState = false;
-        Time.timeScale = 1f;
 
         StopAudio();
 
-        SceneManager.LoadScene(
-            SceneManager.GetActiveScene().buildIndex
-        );
+        Scene currentScene = SceneManager.GetActiveScene();
+
+
+        if (currentScene.buildIndex < 0)
+        {
+            Debug.LogError(
+                "Cannot restart: this scene is not in the active Build Profile."
+            );
+            return;
+        }
+
+        SceneManager.LoadScene(currentScene.buildIndex);
     }
 
     public void MainMenu()

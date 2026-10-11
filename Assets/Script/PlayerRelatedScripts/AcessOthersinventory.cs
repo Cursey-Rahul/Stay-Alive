@@ -30,7 +30,7 @@ public class AcessOthersinventory : MonoBehaviour
         {
             otherInventoryData = null;
             otherNPC = null;
-            Debug.Log("Inventory no longer detected.");
+            
         }
     }
 
@@ -49,7 +49,7 @@ public class AcessOthersinventory : MonoBehaviour
     {
         if (otherNPC == null)
         {
-            Debug.Log("No character nearby.");
+            
             return;
         }
         otherNPC.permitted = true;
@@ -59,7 +59,7 @@ public class AcessOthersinventory : MonoBehaviour
     {
         if (otherInventoryData == null)
         {
-            Debug.Log("No character nearby.");
+            
             return;
         }
 

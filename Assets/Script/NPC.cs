@@ -1,4 +1,3 @@
-
 using System.Collections;
 using UnityEngine;
 
@@ -30,20 +29,30 @@ public class NPC : Entity
     [SerializeField] private float drinkingVolume = 0.7f;
 
     private bool isRunningFromZombie;
-    private bool isRunningToSafeZone;
     private bool wasMoving;
     private float footstepTimer;
 
     protected override void HandleMovement()
     {
+        if (rb == null)
+            return;
+
         if (!canMove)
         {
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(
+                0f,
+                rb.linearVelocity.y
+            );
+
             isRunning = false;
-            anim.SetBool("run", false);
+
+            if (anim != null)
+                anim.SetBool("run", false);
+
             return;
         }
 
+        // Run away from a detected zombie.
         if (ZombieDetected() && !isRunningFromZombie)
         {
             StartCoroutine(RunAwayCoroutine());
@@ -52,64 +61,66 @@ public class NPC : Entity
         if (isRunningFromZombie)
             return;
 
-        // Permission controls whether the NPC goes to the van.
-        isRunningToSafeZone = permitted && safeZone != null;
-
-        if (isRunningToSafeZone)
+        // Once permitted, continuously run right toward the van.
+        // Teleport triggers handle movement between maps.
+        if (permitted && safeZone != null)
         {
-            float difference =
-                safeZone.transform.position.x - transform.position.x;
-
-            int direction = difference > 0.1f ? 1 :
-                            difference < -0.1f ? -1 : 0;
-
-            if (direction == 0)
-            {
-                rb.linearVelocity = new Vector2(
-                    0f, rb.linearVelocity.y);
-
-                isRunning = false;
-                anim.SetBool("run", false);
-                return;
-            }
-
-            facingDir = direction;
+            facingDir = 1;
 
             rb.linearVelocity = new Vector2(
-                direction * (moveSpeed + 1f),
+                moveSpeed + 1f,
                 rb.linearVelocity.y
             );
 
             isRunning = true;
-            anim.SetBool("run", true);
+
+            if (anim != null)
+                anim.SetBool("run", true);
+
             return;
         }
 
-        // Without permission, use the Entity movement behaviour.
+        // Normal movement before receiving permission.
         isRunning = false;
-        anim.SetBool("run", false);
+
+        if (anim != null)
+            anim.SetBool("run", false);
+
         base.HandleMovement();
     }
+
     public void GivePermission()
     {
         permitted = true;
     }
+
+    public void RevokePermission()
+    {
+        permitted = false;
+    }
+
     private bool ZombieDetected()
     {
-        return detectionPoint != null &&
-            Physics2D.Raycast(
-                detectionPoint.position,
-                Vector2.right * facingDir,
-                detectionDistance,
-                zombieLayer
-            ).collider != null;
+        if (detectionPoint == null)
+            return false;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            detectionPoint.position,
+            Vector2.right * facingDir,
+            detectionDistance,
+            zombieLayer
+        );
+
+        return hit.collider != null;
     }
 
     private IEnumerator RunAwayCoroutine()
     {
         isRunningFromZombie = true;
         isRunning = true;
-        anim.SetBool("run", true);
+
+        if (anim != null)
+            anim.SetBool("run", true);
 
         rb.linearVelocity = new Vector2(
             -facingDir * (moveSpeed + 1f),
@@ -120,7 +131,9 @@ public class NPC : Entity
 
         isRunningFromZombie = false;
         isRunning = false;
-        anim.SetBool("run", false);
+
+        if (anim != null)
+            anim.SetBool("run", false);
     }
 
     private void LateUpdate()
@@ -154,11 +167,15 @@ public class NPC : Entity
                     ? runningVolume
                     : walkingVolume;
 
-                if (clips != null && clips.Length > 0 &&
+                if (clips != null &&
+                    clips.Length > 0 &&
                     SoundFXManager.instance != null)
                 {
                     SoundFXManager.instance.PlayMultipleSoundFXClips(
-                        clips, transform, volume);
+                        clips,
+                        transform,
+                        volume
+                    );
                 }
 
                 footstepTimer = interval;
@@ -168,12 +185,15 @@ public class NPC : Entity
         {
             footstepTimer = 0f;
 
-            // Play drinking sound once when movement stops.
-            if (wasMoving && drinkingClip != null &&
+            if (wasMoving &&
+                drinkingClip != null &&
                 SoundFXManager.instance != null)
             {
                 SoundFXManager.instance.PlaySingleSoundFXClip(
-                    drinkingClip, transform, drinkingVolume);
+                    drinkingClip,
+                    transform,
+                    drinkingVolume
+                );
             }
         }
 
@@ -190,7 +210,11 @@ public class NPC : Entity
         Gizmos.DrawLine(
             detectionPoint.position,
             detectionPoint.position +
-            new Vector3(facingDir * detectionDistance, 0f)
+            new Vector3(
+                facingDir * detectionDistance,
+                0f,
+                0f
+            )
         );
     }
 }

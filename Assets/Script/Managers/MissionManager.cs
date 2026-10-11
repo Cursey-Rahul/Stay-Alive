@@ -41,6 +41,13 @@ public class MissionManager : MonoBehaviour
     private readonly HashSet<string> completedTasks =
         new HashSet<string>();
 
+    public bool CanDriveAway =>
+    completedTasks.Contains(returnToVanTaskName) &&
+    activeTasks.ContainsKey(escapeTaskName);
+
+    public int RequiredSurvivors =>
+    FindMission("Find useful survivors")?.requiredAmount ?? 1;
+
     private void Awake()
     {
         instance = this;
@@ -59,7 +66,7 @@ public class MissionManager : MonoBehaviour
             if (mission == null)
                 continue;
 
-            Debug.Log("Mission name: [" + mission.taskName + "]");
+         
 
             if (string.IsNullOrWhiteSpace(mission.taskName))
             {
@@ -71,7 +78,10 @@ public class MissionManager : MonoBehaviour
                 ShowTask(mission.taskName);
         }
     }
-
+    public bool HasEnoughSurvivors(int survivorCount)
+    {
+        return survivorCount >= RequiredSurvivors;
+    }
     private MissionDefinition FindMission(string taskName)
     {
         foreach (MissionDefinition mission in missions)
@@ -104,13 +114,12 @@ public class MissionManager : MonoBehaviour
 
         activeTasks.Add(taskName, task);
 
-        Debug.Log("Activated mission: [" + taskName + "]");
     }
 
 
     public void AddProgress(string taskName, int amount = 1)
     {
-        Debug.Log($"[MISSION] Received: '{taskName}'");
+        
 
         if (!activeTasks.TryGetValue(taskName, out MissionTaskUI task))
         {
@@ -119,15 +128,11 @@ public class MissionManager : MonoBehaviour
             return;
         }
 
-        Debug.Log(
-            $"[MISSION] Updating UI object ID: {task.GetInstanceID()} " +
-            $"for task: '{task.TaskName}'");
+       
 
         bool completed = task.AddProgress(amount);
 
-        Debug.Log(
-            $"[MISSION] Progress sent to: '{task.TaskName}', " +
-            $"Completed: {completed}");
+      
 
         if (completed)
         {
@@ -149,15 +154,14 @@ public class MissionManager : MonoBehaviour
             ShowTask(returnToVanTaskName);
     }
 
-    // Call this when the player reaches the van
-    // and the return-to-van objective is complete.
+    
     public void ReachVan()
     {
         if (!completedTasks.Contains(gearsTaskName) ||
             !completedTasks.Contains(fuelTaskName) ||
             !completedTasks.Contains(batteryTaskName))
         {
-            Debug.Log("Collect all required van resources first.");
+            
             return;
         }
 
@@ -173,18 +177,17 @@ public class MissionManager : MonoBehaviour
 
         ShowTask(escapeTaskName);
     }
-
-    // Call this when the player successfully escapes.
-    public void CompleteEscape()
+public void CompleteEscape()
     {
         if (!completedTasks.Contains(returnToVanTaskName) ||
-            !activeTasks.ContainsKey(escapeTaskName))
+            !activeTasks.TryGetValue(escapeTaskName, out MissionTaskUI task))
         {
             Debug.LogWarning("Escape objective is not ready.");
             return;
         }
 
-        activeTasks[escapeTaskName].Complete();
+        // Remove the final mission from the UI.
+        task.Complete();
         activeTasks.Remove(escapeTaskName);
         completedTasks.Add(escapeTaskName);
 

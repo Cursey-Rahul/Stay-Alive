@@ -101,7 +101,7 @@ public class NPCInteraction : MonoBehaviour
 
         onAccept.Invoke();
 
-        Debug.Log(characterName + " accepted.");
+        
     }
 
     public void RejectNPC()
@@ -113,7 +113,7 @@ public class NPCInteraction : MonoBehaviour
 
         onReject.Invoke();
 
-        Debug.Log(characterName + " rejected.");
+        
     }
 
     private void CloseDialogue()
