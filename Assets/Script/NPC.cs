@@ -3,10 +3,14 @@ using UnityEngine;
 
 public class NPC : Entity
 {
-    [Header("Zombie Detection")]
+    [Header("Entity Detection")]
+    [SerializeField] private LayerMask whoAreEntities;
+    [SerializeField] private float sightRadius = 2f;
+    private bool SpottedAnEntity = false;
     [SerializeField] private Transform detectionPoint;
-    [SerializeField] private float detectionDistance = 8f;
-    [SerializeField] private LayerMask zombieLayer;
+    private Transform currentTarget;
+    private bool runningAway;
+
 
     [Header("Van / Safe Zone")]
     [SerializeField] private GameObject safeZone;
@@ -28,10 +32,14 @@ public class NPC : Entity
     [SerializeField] private AudioClip drinkingClip;
     [SerializeField] private float drinkingVolume = 0.7f;
 
-    private bool isRunningFromZombie;
     private bool wasMoving;
     private float footstepTimer;
 
+    override protected void Update()
+    {
+        base.Update();
+        DetectOtherEntity();
+    }
     protected override void HandleMovement()
     {
         if (rb == null)
@@ -39,11 +47,7 @@ public class NPC : Entity
 
         if (!canMove)
         {
-            rb.linearVelocity = new Vector2(
-                0f,
-                rb.linearVelocity.y
-            );
-
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             isRunning = false;
 
             if (anim != null)
@@ -52,21 +56,8 @@ public class NPC : Entity
             return;
         }
 
-        // Run away from a detected zombie.
-        if (ZombieDetected() && !isRunningFromZombie)
-        {
-            StartCoroutine(RunAwayCoroutine());
-        }
-
-        if (isRunningFromZombie)
-            return;
-
-        // Once permitted, continuously run right toward the van.
-        // Teleport triggers handle movement between maps.
         if (permitted && safeZone != null)
         {
-            facingDir = 1;
-
             rb.linearVelocity = new Vector2(
                 moveSpeed + 1f,
                 rb.linearVelocity.y
@@ -80,13 +71,117 @@ public class NPC : Entity
             return;
         }
 
-        // Normal movement before receiving permission.
+        if (specialMovement && currentTarget != null)
+        {
+            float difference =
+    currentTarget.position.x - transform.position.x;
+
+            if (Mathf.Abs(difference) < 0.1f)
+                return;
+
+            float direction = Mathf.Sign(difference);
+
+            if (runningAway)
+                direction *= -1f;
+            rb.linearVelocity = new Vector2(
+                direction * moveSpeed,
+                rb.linearVelocity.y
+            );
+
+            isRunning = true;
+
+            if (anim != null)
+                anim.SetBool("run", true);
+
+            return;
+        }
+
         isRunning = false;
 
         if (anim != null)
             anim.SetBool("run", false);
 
         base.HandleMovement();
+    }
+    public void DetectOtherEntity()
+    {
+        if (detectionPoint == null)
+            return;
+
+        // Keep chasing or fleeing while the target remains nearby.
+        if (currentTarget != null)
+        {
+            float distance = Vector2.Distance(
+                transform.position,
+                currentTarget.position
+            );
+
+            if (distance <= sightRadius)
+            {
+                specialMovement = true;
+                return;
+            }
+
+            currentTarget = null;
+            specialMovement = false;
+            SpottedAnEntity = false;
+        }
+
+        Vector2 origin = detectionPoint.position;
+        Vector2 direction = Vector2.right * facingDir;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            origin,
+            direction,
+            sightRadius,
+            whoAreEntities
+        );
+
+        Debug.DrawRay(
+            origin,
+            direction * sightRadius,
+            hit.collider != null ? Color.green : Color.red
+        );
+
+        if (hit.collider == null)
+            return;
+
+        if (hit.collider.CompareTag("Player") ||
+            hit.collider.CompareTag("NPC"))
+        {
+            currentTarget = hit.collider.transform;
+            runningAway = false;
+        }
+        else if (hit.collider.CompareTag("Zombie"))
+        {
+            currentTarget = hit.collider.transform;
+            runningAway = true;
+        }
+        else
+        {
+            return;
+        }
+
+        specialMovement = true;
+        SpottedAnEntity = true;
+    }
+    protected virtual void RunTowards(Transform target)
+    {
+        if (!canMove)
+            return;
+        Debug.Log("Running towards: " + target.name);
+        Vector2 direction = (target.position - transform.position).normalized;
+        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
+        anim.SetBool("run", true);
+    }
+    protected virtual void RunAwayFrom(Transform target)
+    {
+        if (!canMove)
+            return;
+        Debug.Log("Running away from: " + target.name);
+        Vector2 direction = (transform.position - target.position).normalized;
+        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
+        anim.SetBool("run", true);
     }
 
     public void GivePermission()
@@ -97,43 +192,6 @@ public class NPC : Entity
     public void RevokePermission()
     {
         permitted = false;
-    }
-
-    private bool ZombieDetected()
-    {
-        if (detectionPoint == null)
-            return false;
-
-        RaycastHit2D hit = Physics2D.Raycast(
-            detectionPoint.position,
-            Vector2.right * facingDir,
-            detectionDistance,
-            zombieLayer
-        );
-
-        return hit.collider != null;
-    }
-
-    private IEnumerator RunAwayCoroutine()
-    {
-        isRunningFromZombie = true;
-        isRunning = true;
-
-        if (anim != null)
-            anim.SetBool("run", true);
-
-        rb.linearVelocity = new Vector2(
-            -facingDir * (moveSpeed + 1f),
-            rb.linearVelocity.y
-        );
-
-        yield return new WaitForSeconds(2f);
-
-        isRunningFromZombie = false;
-        isRunning = false;
-
-        if (anim != null)
-            anim.SetBool("run", false);
     }
 
     private void LateUpdate()
@@ -211,7 +269,7 @@ public class NPC : Entity
             detectionPoint.position,
             detectionPoint.position +
             new Vector3(
-                facingDir * detectionDistance,
+                facingDir * sightRadius,
                 0f,
                 0f
             )

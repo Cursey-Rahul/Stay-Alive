@@ -12,11 +12,13 @@ public class Entity : MonoBehaviour
     [SerializeField] public int maxHealth = 1;
     [SerializeField] public int currentHealth;
     [SerializeField] private Material damageMaterial;
+    [SerializeField] private Material invinsibleMaterial;
     [SerializeField] private Material healMaterial;
     [SerializeField] private float MaterialDuration = 0.1f;
     private Material originalMaterial;
     private Coroutine damageFeedbackCoroutine;
     private Coroutine heathGainCoroutine;
+    private Coroutine invincibleCoroutine;
 
     [Header("Attack Details")]
     [SerializeField] protected float attackRadius;
@@ -24,10 +26,14 @@ public class Entity : MonoBehaviour
     [SerializeField] protected LayerMask whatIsTarget;
     protected bool isDead = false;
     protected bool targetDetected = false;
+    protected bool invinsible = false;
+    protected float invinsibleDuration = 1f;
 
     [Header("collision details")]
     [SerializeField] private float groundDistanceCheck;
     [SerializeField] private LayerMask whatIsGround;
+
+    [Header("Detection Details")]
     protected bool isGrounded;
 
     // facing direction details
@@ -35,7 +41,6 @@ public class Entity : MonoBehaviour
     protected bool canMove = true;
     protected bool facingRight = true;
     protected bool isAttacking;
-    protected bool isRunning = false;
 
     [Header("Audio")]
     [SerializeField] protected AudioClip[] healAudio;
@@ -45,12 +50,14 @@ public class Entity : MonoBehaviour
     [SerializeField] protected AudioClip[] attackHitAudios;
 
     [Header("Free Movement details")]
+    protected bool specialMovement = false;
     [SerializeField] protected float moveSpeed = 2f;
     private bool isWalking;
     private float walkCounter;
     public float walkTime = 3f;
     public float waitTime = 1f;
     private float waitCounter;
+    protected bool isRunning;
 
 
 
@@ -85,11 +92,11 @@ public class Entity : MonoBehaviour
         Collider2D[] enemyCollider = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, whatIsTarget);
         bool didHit = false;
 
-       
+
         foreach (Collider2D enemy in enemyCollider)
         {
             Entity entityTarget = enemy.GetComponent<Entity>();
-            if (entityTarget != null && !entityTarget.isDead && !entityTarget.isRunning)
+            if (entityTarget != null && !entityTarget.isDead && !entityTarget.invinsible)
             {
 
                 entityTarget.TakeDamage();
@@ -109,9 +116,11 @@ public class Entity : MonoBehaviour
 
     public void TakeDamage()
     {
+        if (invinsible || isDead)
+            return;
         SoundFXManager.instance.PlayMultipleSoundFXClips(damageAudios, transform, 0.5f);
         currentHealth--;
-        PlayDamageFeedack();
+        PlayDamageFeedback();
         if (currentHealth <= 0)
             Die();
     }
@@ -129,13 +138,17 @@ public class Entity : MonoBehaviour
         anim.SetTrigger("die");
     }
 
-    private void PlayDamageFeedack()
+    private void PlayDamageFeedback()
     {
         if (damageFeedbackCoroutine != null)
             StopCoroutine(damageFeedbackCoroutine);
 
-        StartCoroutine(DamageFeedbackCo());
+        sr.enabled = true;
+        invinsible = false;
+
+        damageFeedbackCoroutine = StartCoroutine(DamageFeedbackCo());
     }
+
     private void PlayHealthGainFeedback()
     {
         if (heathGainCoroutine != null)
@@ -153,10 +166,30 @@ public class Entity : MonoBehaviour
 
     private IEnumerator DamageFeedbackCo()
     {
+        sr.enabled = true;
         sr.material = damageMaterial;
 
         yield return new WaitForSeconds(MaterialDuration);
+
         sr.material = originalMaterial;
+        invinsible = true;
+
+        float timer = 0f;
+        bool visible = true;
+
+        while (timer < invinsibleDuration)
+        {
+            sr.enabled = visible;
+            visible = !visible;
+
+            yield return new WaitForSeconds(0.1f);
+            timer += 0.1f;
+        }
+
+        sr.enabled = true;
+        sr.material = originalMaterial;
+        invinsible = false;
+        damageFeedbackCoroutine = null;
     }
 
 
@@ -184,49 +217,51 @@ public class Entity : MonoBehaviour
 
     protected virtual void HandleMovement()
     {
-       
+
         if (!canMove)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             return;
         }
-
-        if (isWalking)
+        if (!specialMovement)
         {
-            // Walking
-            walkCounter -= Time.deltaTime;
-
-            rb.linearVelocity = new Vector2(
-                facingDir * moveSpeed,
-                rb.linearVelocity.y
-            );
-
-            if (walkCounter <= 0)
+            if (isWalking)
             {
-                isWalking = false;
-                waitCounter = waitTime;
+                // Walking
+                walkCounter -= Time.deltaTime;
+
+                rb.linearVelocity = new Vector2(
+                    facingDir * moveSpeed,
+                    rb.linearVelocity.y
+                );
+
+                if (walkCounter <= 0)
+                {
+                    isWalking = false;
+                    waitCounter = waitTime;
+                }
             }
-        }
-        else
-        {
-            // Waiting
-            waitCounter -= Time.deltaTime;
-
-            rb.linearVelocity = new Vector2(
-                0,
-                rb.linearVelocity.y
-            );
-
-            if (waitCounter <= 0)
+            else
             {
-                isWalking = true;
-                walkCounter = walkTime;
+                // Waiting
+                waitCounter -= Time.deltaTime;
 
-                Flip();
+                rb.linearVelocity = new Vector2(
+                    0,
+                    rb.linearVelocity.y
+                );
+
+                if (waitCounter <= 0)
+                {
+                    isWalking = true;
+                    walkCounter = walkTime;
+
+                    Flip();
+                }
             }
         }
     }
-    
+
 
     protected virtual void HandleCollision()
     {
